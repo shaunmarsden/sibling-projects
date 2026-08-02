@@ -6,7 +6,7 @@
 
 **Who it is for:** anyone maintaining a mailing list, a contact database, an inventory sheet, or any list that has been added to by more than one person over time and has probably accumulated duplicates and test rows nobody has cleaned up.
 
-**Status:** Concept only, not built.
+**Status:** Built, 2 August 2026. Live at [github.com/shaunmarsden/list-hygiene-checker](https://github.com/shaunmarsden/list-hygiene-checker), with a fictional worked example (a running club membership list) built with five deliberate traps: a confident duplicate, a merely possible one, a fake test row, two incomplete real records, and one that looks complete but is actually stale.
 
 ## Rough Shape
 
