@@ -1,6 +1,6 @@
 # Sibling Projects
 
-A backlog of tool ideas, each one a pattern already proven in [practical-ai-sales-workflows](https://github.com/shaunmarsden/practical-ai-sales-workflows) or [book-to-skill](https://github.com/shaunmarsden/book-to-skill), generalised beyond sales to a wider audience. All nine were built between 2 August 2026 and now, each a genuine `SKILL.md` with a fictional worked example testing deliberate traps, not just a description. This file stays as the index and the record of what each one generalises from and why.
+A backlog of tool ideas, each one a pattern already proven in [practical-ai-sales-workflows](https://github.com/shaunmarsden/practical-ai-sales-workflows) or [book-to-skill](https://github.com/shaunmarsden/book-to-skill), generalised beyond sales to a wider audience. Thirteen are built as of 2 August 2026, each a genuine `SKILL.md` with a fictional worked example testing deliberate traps, not just a description. This file stays as the index and the record of what each one generalises from and why.
 
 ## Strongest, Most Differentiated
 
@@ -20,7 +20,16 @@ A backlog of tool ideas, each one a pattern already proven in [practical-ai-sale
 8. [Diagnose Before You Respond](ideas/08-diagnose-before-you-respond.md): find the real driver behind pushback before answering it, scoped to customer complaints specifically. **Built:** [github.com/shaunmarsden/diagnose-before-you-respond](https://github.com/shaunmarsden/diagnose-before-you-respond)
 9. [Course/Policy to Skill](ideas/09-course-policy-to-skill.md): book-to-skill's exact mechanic aimed at training material or a policy document instead of a book. **Built:** as a second worked example inside [book-to-skill](https://github.com/shaunmarsden/book-to-skill/tree/main/example-two) rather than its own repo
 
-## All Nine Built
+## Round Two
+
+Four more, mined from patterns in the sales repo the first nine had not yet covered:
+
+10. [Is This Actually a Good Fit?](ideas/10-is-this-a-good-fit.md): classify each aspect of a decision as a good fit, poor fit, or genuinely uncertain, applied beyond a sales prospect. **Built:** [github.com/shaunmarsden/is-this-a-good-fit](https://github.com/shaunmarsden/is-this-a-good-fit)
+11. [Brief Your Advocate](ideas/11-brief-your-advocate.md): prepare someone else to carry your case to a third party you cannot be in the room for. **Built:** [github.com/shaunmarsden/brief-your-advocate](https://github.com/shaunmarsden/brief-your-advocate)
+12. [Make the Case](ideas/12-make-the-case.md): build or audit a written case for a decision-maker who was not part of the original conversations. **Built:** [github.com/shaunmarsden/make-the-case](https://github.com/shaunmarsden/make-the-case)
+13. [Weekly Roundup Builder](ideas/13-weekly-roundup-builder.md): pull whatever you actually have this week into one honest report, no invented trends. **Built:** [github.com/shaunmarsden/weekly-roundup-builder](https://github.com/shaunmarsden/weekly-roundup-builder)
+
+## All Thirteen Built
 
 Every idea on this list now has a real repo, or in idea #9's case, a second worked example inside an existing one where that was the better fit. Each brief above still records what it generalises from and the open questions raised before building, in case any of them are worth a second, harder worked example later, the same way [Evidence-Labelled Meeting Notes](ideas/01-evidence-labelled-meeting-notes.md) got a second example testing the opposite failure mode from its first.
 
