@@ -6,7 +6,7 @@
 
 **Who it is for:** anyone using AI for repeated output in a domain with its own real stakes, legal drafting, code review, marketing copy, hiring screens, research summaries. Almost nobody defines "good" before they start trusting an AI's answer.
 
-**Status:** Concept only, not built.
+**Status:** Built, 2 August 2026. Live at [github.com/shaunmarsden/build-your-own-rubric](https://github.com/shaunmarsden/build-your-own-rubric), with a fictional worked example (Thornbury Outfitters customer support replies) that builds a rubric, then applies it to a new output failing in a subtler way than the bad example the rubric was built from, to check it actually generalises.
 
 ## Rough Shape
 
