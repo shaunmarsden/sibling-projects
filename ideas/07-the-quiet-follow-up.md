@@ -6,7 +6,7 @@
 
 **Who it is for:** recruiters following up on candidates who have gone silent, event organisers chasing no-shows or unconfirmed RSVPs, anyone waiting on an unanswered support ticket or a stalled internal request.
 
-**Status:** Concept only, not built.
+**Status:** Built, 2 August 2026. Live at [github.com/shaunmarsden/the-quiet-follow-up](https://github.com/shaunmarsden/the-quiet-follow-up), with a fictional food bank volunteer coordinator worked example testing follow-up-now, answer-something-first, and stop.
 
 ## Rough Shape
 
