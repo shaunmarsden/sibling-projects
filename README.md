@@ -1,6 +1,6 @@
 # Sibling Projects
 
-A backlog of tool ideas, each one a pattern already proven in [practical-ai-sales-workflows](https://github.com/shaunmarsden/practical-ai-sales-workflows) or [book-to-skill](https://github.com/shaunmarsden/book-to-skill), generalised beyond sales to a wider audience. Nothing here is built yet: each file is a concept brief, enough to pick up and expand into a real skill and its own repo when the time comes, the same way book-to-skill grew out of an idea like these.
+A backlog of tool ideas, each one a pattern already proven in [practical-ai-sales-workflows](https://github.com/shaunmarsden/practical-ai-sales-workflows) or [book-to-skill](https://github.com/shaunmarsden/book-to-skill), generalised beyond sales to a wider audience. All nine were built between 2 August 2026 and now, each a genuine `SKILL.md` with a fictional worked example testing deliberate traps, not just a description. This file stays as the index and the record of what each one generalises from and why.
 
 ## Strongest, Most Differentiated
 
@@ -17,12 +17,12 @@ A backlog of tool ideas, each one a pattern already proven in [practical-ai-sale
 
 ## More Speculative
 
-8. [Diagnose Before You Respond](ideas/08-diagnose-before-you-respond.md): find the real driver behind pushback before answering it, applied beyond a sales objection
-9. [Course/Policy to Skill](ideas/09-course-policy-to-skill.md): book-to-skill's exact mechanic aimed at training material or a policy document instead of a book
+8. [Diagnose Before You Respond](ideas/08-diagnose-before-you-respond.md): find the real driver behind pushback before answering it, scoped to customer complaints specifically. **Built:** [github.com/shaunmarsden/diagnose-before-you-respond](https://github.com/shaunmarsden/diagnose-before-you-respond)
+9. [Course/Policy to Skill](ideas/09-course-policy-to-skill.md): book-to-skill's exact mechanic aimed at training material or a policy document instead of a book. **Built:** as a second worked example inside [book-to-skill](https://github.com/shaunmarsden/book-to-skill/tree/main/example-two) rather than its own repo
 
-## How to Pick One Up
+## All Nine Built
 
-Each brief has a rough shape (gather inputs, method, guardrails, stop conditions) and a set of open questions worth resolving before building. None of these have a worked example yet; building one, the way [book-to-skill's Art of War demo](https://github.com/shaunmarsden/book-to-skill/tree/main/example) works, is likely the first real step for whichever one gets picked up next.
+Every idea on this list now has a real repo, or in idea #9's case, a second worked example inside an existing one where that was the better fit. Each brief above still records what it generalises from and the open questions raised before building, in case any of them are worth a second, harder worked example later, the same way [Evidence-Labelled Meeting Notes](ideas/01-evidence-labelled-meeting-notes.md) got a second example testing the opposite failure mode from its first.
 
 ## Feedback
 

@@ -6,7 +6,7 @@
 
 **Who it is for:** anyone who has a long course, a training manual, or a policy document they want an AI to consult section by section without loading the whole thing into every conversation. Overlaps closely enough with book-to-skill's actual audience that this may end up as a worked example there rather than a separate repo.
 
-**Status:** Concept only, not built. Kept on the list because the source material genuinely differs in one important way books do not: policies and training material are usually the reader's own organisation's content, not a copyrighted book, which removes the one real constraint book-to-skill had to design carefully around.
+**Status:** Built, 2 August 2026, as a second worked example inside [book-to-skill](https://github.com/shaunmarsden/book-to-skill) rather than its own repo, the answer to this file's own open question. `SKILL.md` now explicitly covers training material and policies alongside books, with one genuine addition: a contradiction-check step, since a policy can supersede itself between sections in a way a book's chapters rarely do. The second worked example (a fictional two-section remote work policy with a later section superseding an earlier one for specific roles) is deliberately lighter than the first.
 
 ## Rough Shape
 

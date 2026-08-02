@@ -6,7 +6,7 @@
 
 **Who it is for:** anyone facing pushback where answering the literal words risks missing the real concern underneath them, a customer complaint, an internal stakeholder pushing back on a plan, a negotiation where the stated sticking point may not be the real one.
 
-**Status:** Concept only, not built. Flagged as the more speculative end of the list, since "diagnose the real driver of pushback" risks reading as a generic communication-skills tool rather than something with a sharp enough edge to feel distinct.
+**Status:** Built, 2 August 2026, kept lightweight (5 files, one combined worked example rather than separate case/output/review files). Scoped tightly to resolve the speculative-ness flagged below: customer complaints specifically, not pushback in general. Live at [github.com/shaunmarsden/diagnose-before-you-respond](https://github.com/shaunmarsden/diagnose-before-you-respond), with a fictional bakery worked example testing both a genuine simple fault (should not be over-diagnosed) and a complaint whose real driver is not the stated issue.
 
 ## Rough Shape
 
