@@ -6,7 +6,7 @@
 
 **Who it is for:** anyone doing a post-mortem on a failed pitch, a rejected job application, a cancelled project, a grant application that did not land, where "why did this actually fail" tends to get answered emotionally rather than by checking what was actually said.
 
-**Status:** Concept only, not built.
+**Status:** Built, 2 August 2026. Live at [github.com/shaunmarsden/post-mortem-builder](https://github.com/shaunmarsden/post-mortem-builder), with four fictional worked cases (a rejected job application, a paused grant, a quiet partnership pitch, and an unconditional decline), testing whether hard-blocker, timing, no-decision and genuinely-closed get correctly told apart.
 
 ## Rough Shape
 

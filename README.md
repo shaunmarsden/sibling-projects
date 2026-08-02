@@ -12,7 +12,7 @@ A backlog of tool ideas, each one a pattern already proven in [practical-ai-sale
 
 4. [Claims vs. Evidence Checker](ideas/04-claims-vs-evidence-checker.md): check whether a tracked status is actually supported by evidence, applied to any tracker
 5. [List Hygiene Checker](ideas/05-list-hygiene-checker.md): duplicates, missing fields and stale rows, applied to any spreadsheet or list. **Built:** [github.com/shaunmarsden/list-hygiene-checker](https://github.com/shaunmarsden/list-hygiene-checker)
-6. [Post-Mortem Builder](ideas/06-post-mortem-builder.md): work out whether a failed initiative is genuinely over, applied beyond a lost sale
+6. [Post-Mortem Builder](ideas/06-post-mortem-builder.md): work out whether a failed initiative is genuinely over, applied beyond a lost sale. **Built:** [github.com/shaunmarsden/post-mortem-builder](https://github.com/shaunmarsden/post-mortem-builder)
 7. [The Quiet Follow-Up](ideas/07-the-quiet-follow-up.md): decide what to send, if anything, when someone has gone quiet, applied beyond a sales prospect
 
 ## More Speculative
