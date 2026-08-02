@@ -6,7 +6,7 @@ A backlog of tool ideas, each one a pattern already proven in [practical-ai-sale
 
 1. [Evidence-Labelled Meeting Notes](ideas/01-evidence-labelled-meeting-notes.md): keep confirmed facts, estimates and assumptions visibly separate in any meeting write-up, not just a sales call. **Built:** [github.com/shaunmarsden/evidence-labelled-meeting-notes](https://github.com/shaunmarsden/evidence-labelled-meeting-notes)
 2. [Build Your Own AI Output Rubric](ideas/02-build-your-own-rubric.md): a tool for building a scoring rubric for AI output in any domain, not just sales. **Built:** [github.com/shaunmarsden/build-your-own-rubric](https://github.com/shaunmarsden/build-your-own-rubric)
-3. [Skill Author](ideas/03-skill-author.md): turn a repeated task into a proper, bounded skill, the meta-tool behind everything else on this list
+3. [Skill Author](ideas/03-skill-author.md): turn a repeated task into a proper, bounded skill, the meta-tool behind everything else on this list. **Built:** [github.com/shaunmarsden/skill-author](https://github.com/shaunmarsden/skill-author)
 
 ## Solid, Narrower Generalisations
 

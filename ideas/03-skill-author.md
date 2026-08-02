@@ -6,7 +6,7 @@
 
 **Who it is for:** anyone who has a prompt they reuse and retype variations of constantly, and would benefit from turning it into a proper reusable, bounded instruction set instead. Probably the widest possible audience of the whole list, since this is a step up from prompting itself, not from any one domain.
 
-**Status:** Concept only, not built. This is arguably the most leveraged idea on the list, since it is the meta-tool behind every other one.
+**Status:** Built, 2 August 2026. Live at [github.com/shaunmarsden/skill-author](https://github.com/shaunmarsden/skill-author). The worked example produces an actual, complete generated skill (support-ticket triage) from a plain-English task description, then self-tests it against fictional tickets with deliberate tone-versus-urgency traps in both directions.
 
 ## Rough Shape
 
