@@ -24,6 +24,10 @@ A backlog of tool ideas, each one a pattern already proven in [practical-ai-sale
 
 Each brief has a rough shape (gather inputs, method, guardrails, stop conditions) and a set of open questions worth resolving before building. None of these have a worked example yet; building one, the way [book-to-skill's Art of War demo](https://github.com/shaunmarsden/book-to-skill/tree/main/example) works, is likely the first real step for whichever one gets picked up next.
 
+## Feedback
+
+Have a tenth idea, or think one of these is weaker than it looks? [Start a discussion](https://github.com/shaunmarsden/sibling-projects/discussions).
+
 ## Licence
 
 MIT. These are ideas and methods, not any specific person's or company's content.
