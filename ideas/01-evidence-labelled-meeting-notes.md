@@ -6,7 +6,7 @@
 
 **Who it is for:** anyone who leaves a meeting and has to write it up, project managers, consultants, recruiters, anyone whose job involves "what did we actually agree" being different from "what does everyone remember agreeing."
 
-**Status:** Concept only, not built.
+**Status:** Built, 2 August 2026. Live at [github.com/shaunmarsden/evidence-labelled-meeting-notes](https://github.com/shaunmarsden/evidence-labelled-meeting-notes), with a fictional worked example (Fernbridge Digital) built with deliberate traps, the same pattern as [book-to-skill](https://github.com/shaunmarsden/book-to-skill)'s Art of War demo.
 
 ## Rough Shape
 
