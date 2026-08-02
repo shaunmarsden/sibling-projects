@@ -1,6 +1,6 @@
 # Sibling Projects
 
-A backlog of tool ideas, each one a pattern already proven in [practical-ai-sales-workflows](https://github.com/shaunmarsden/practical-ai-sales-workflows) or [book-to-skill](https://github.com/shaunmarsden/book-to-skill), generalised beyond sales to a wider audience. Fourteen are built as of 2 August 2026, each a genuine `SKILL.md` with a fictional worked example testing deliberate traps, not just a description. This file stays as the index and the record of what each one generalises from and why.
+A backlog of tool ideas, each one a pattern already proven in [practical-ai-sales-workflows](https://github.com/shaunmarsden/practical-ai-sales-workflows) or [book-to-skill](https://github.com/shaunmarsden/book-to-skill), generalised beyond sales to a wider audience. Fifteen are built as of 2 August 2026, each a genuine `SKILL.md` with a fictional worked example testing deliberate traps, not just a description. This file stays as the index and the record of what each one generalises from and why.
 
 ## Strongest, Most Differentiated
 
@@ -33,7 +33,11 @@ Four more, mined from patterns in the sales repo the first nine had not yet cove
 
 14. [What's Actually Causing This Delay?](ideas/14-whats-causing-this-delay.md): diagnose whether a stalled decision is genuine indecision, an unstated concern, a real dependency, or a soft no. Complements Post-Mortem Builder, which is for cases already closed; this is for one still open. **Built:** [github.com/shaunmarsden/whats-causing-this-delay](https://github.com/shaunmarsden/whats-causing-this-delay)
 
-## All Fourteen Built
+## Round Four
+
+15. [Is This Really a Pattern?](ideas/15-is-this-really-a-pattern.md): separate a genuine recurring cause from similar wording that hides different problems, across any log of complaints, feedback, or incidents. **Built:** [github.com/shaunmarsden/is-this-really-a-pattern](https://github.com/shaunmarsden/is-this-really-a-pattern)
+
+## All Fifteen Built
 
 Every idea on this list now has a real repo, or in idea #9's case, a second worked example inside an existing one where that was the better fit. Each brief above still records what it generalises from and the open questions raised before building, in case any of them are worth a second, harder worked example later, the same way [Evidence-Labelled Meeting Notes](ideas/01-evidence-labelled-meeting-notes.md) got a second example testing the opposite failure mode from its first.
 
