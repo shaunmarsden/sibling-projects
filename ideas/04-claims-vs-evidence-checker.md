@@ -6,7 +6,7 @@
 
 **Who it is for:** project managers checking status reports, recruiters checking a pipeline of candidates, anyone maintaining a tracker where the field can quietly drift ahead of what actually happened.
 
-**Status:** Concept only, not built.
+**Status:** Built, 2 August 2026. Live at [github.com/shaunmarsden/claims-vs-evidence-checker](https://github.com/shaunmarsden/claims-vs-evidence-checker), with a fictional home renovation punch list catching a false "done" and a stale "in progress", while correctly leaving two genuinely healthy items alone.
 
 ## Rough Shape
 
