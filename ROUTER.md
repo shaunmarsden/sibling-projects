@@ -9,6 +9,14 @@ You do not need to install anything to try this once: copy this whole file, past
 
 Someone describing a real situation rarely names the tool they need; they describe the problem. This reads that description and hands off to the right existing tool, without trying to solve the task itself and without inventing a new method one of the eighteen already covers.
 
+```mermaid
+flowchart TB
+    A["1. Describe the situation in your own words"]
+    B["2. Checked against the table, and the confusable pairs"]
+    C["3. A named route, or an honest 'none of these fit'"]
+    A --> B --> C
+```
+
 ## Gather the Inputs
 
 - The actual goal, in your own words, not a guess at which tool you mean
@@ -69,4 +77,4 @@ Once a route is chosen, state:
 
 This recommends a route and prepares a handoff. Actually running the recommended tool, and everything it in turn requires a person to check, stays exactly as documented in that tool.
 
-For a fictional worked example, including one that deliberately tests the Post-Mortem Builder versus What's Actually Causing This Delay confusion above, read [the worked example](router-example/).
+For a fictional worked example, including one that deliberately tests the Post-Mortem Builder versus What's Actually Causing This Delay confusion above, read [the worked example](router-example/). Use [the review checklist](checks/checklist.md) before acting on a routing decision.
