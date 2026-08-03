@@ -9,6 +9,8 @@ You do not need to install anything to try this once: copy this whole file, past
 
 Someone describing a real situation rarely names the tool they need; they describe the problem. This reads that description and hands off to the right existing tool, without trying to solve the task itself and without inventing a new method one of the eighteen already covers.
 
+**Want clickable choices?** [Open the interactive tool picker](https://shaunmarsden.github.io/sibling-projects/).
+
 ```mermaid
 flowchart TB
     A["1. Describe the situation in your own words"]
