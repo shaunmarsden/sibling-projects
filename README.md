@@ -2,6 +2,8 @@
 
 A backlog of tool ideas, each one a pattern already proven in [practical-ai-sales-workflows](https://github.com/shaunmarsden/practical-ai-sales-workflows) or [book-to-skill](https://github.com/shaunmarsden/book-to-skill), generalised beyond sales to a wider audience. Seventeen are built as of 3 August 2026, each a genuine `SKILL.md` with a fictional worked example testing deliberate traps, not just a description. This file stays as the index and the record of what each one generalises from and why.
 
+**Not sure which of these actually fits your situation?** [The router](ROUTER.md) reads a plain-English description of your problem and hands off to the right one, including explicit checks for the pairs that sound similar but are not, a closed case versus one still stalled, a single decision's aspects versus a pattern across several instances.
+
 ## Strongest, Most Differentiated
 
 1. [Evidence-Labelled Meeting Notes](ideas/01-evidence-labelled-meeting-notes.md): keep confirmed facts, estimates and assumptions visibly separate in any meeting write-up, not just a sales call. **Built:** [github.com/shaunmarsden/evidence-labelled-meeting-notes](https://github.com/shaunmarsden/evidence-labelled-meeting-notes)
