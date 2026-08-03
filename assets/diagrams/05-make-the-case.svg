@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="180" viewBox="0 0 820 180" role="img" aria-labelledby="title desc">
+<title id="title">Three types of information in a business case</title><desc id="desc">Pills for confirmed information, inference and unknown placeholders.</desc>
+<style>:root{--ink:#183b56;--line:#607080;--green:#dff3e5;--amber:#fff0cc;--grey:#eef2f6}@media(prefers-color-scheme:dark){:root{--ink:#e6edf3;--line:#9baabd;--green:#183b2a;--amber:#4a3610;--grey:#263444}}text{font-family:Arial,Helvetica,sans-serif;fill:var(--ink)}.pill{stroke:var(--line);stroke-width:3;rx:30}.label{font-size:20px;font-weight:700}.long{font-size:15px;font-weight:700}</style>
+<rect class="pill" x="30" y="55" width="200" height="62" fill="var(--green)"/><rect class="pill" x="270" y="55" width="200" height="62" fill="var(--amber)"/><rect class="pill" x="510" y="55" width="280" height="62" fill="var(--grey)"/><text class="label" x="130" y="94" text-anchor="middle">Confirmed</text><text class="label" x="370" y="94" text-anchor="middle">Inference</text><text class="long" x="650" y="91" text-anchor="middle">Unknown - left as a placeholder</text>
+</svg>
