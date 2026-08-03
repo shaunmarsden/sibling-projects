@@ -1,6 +1,6 @@
 # Sibling Projects
 
-A backlog of tool ideas, each one a pattern already proven in [practical-ai-sales-workflows](https://github.com/shaunmarsden/practical-ai-sales-workflows) or [book-to-skill](https://github.com/shaunmarsden/book-to-skill), generalised beyond sales to a wider audience. Fifteen are built as of 2 August 2026, each a genuine `SKILL.md` with a fictional worked example testing deliberate traps, not just a description. This file stays as the index and the record of what each one generalises from and why.
+A backlog of tool ideas, each one a pattern already proven in [practical-ai-sales-workflows](https://github.com/shaunmarsden/practical-ai-sales-workflows) or [book-to-skill](https://github.com/shaunmarsden/book-to-skill), generalised beyond sales to a wider audience. Sixteen are built as of 3 August 2026, each a genuine `SKILL.md` with a fictional worked example testing deliberate traps, not just a description. This file stays as the index and the record of what each one generalises from and why.
 
 ## Strongest, Most Differentiated
 
@@ -37,7 +37,11 @@ Four more, mined from patterns in the sales repo the first nine had not yet cove
 
 15. [Is This Really a Pattern?](ideas/15-is-this-really-a-pattern.md): separate a genuine recurring cause from similar wording that hides different problems, across any log of complaints, feedback, or incidents. **Built:** [github.com/shaunmarsden/is-this-really-a-pattern](https://github.com/shaunmarsden/is-this-really-a-pattern)
 
-## All Fifteen Built
+## Round Five
+
+16. [Personalise, Don't Templatise](ideas/16-personalise-dont-templatise.md): draft a fixed-template message personalised with real detail, correctly handling multiple recipients or a forward-to-someone-else case. **Built:** [github.com/shaunmarsden/personalise-dont-templatise](https://github.com/shaunmarsden/personalise-dont-templatise)
+
+## All Sixteen Built
 
 Every idea on this list now has a real repo, or in idea #9's case, a second worked example inside an existing one where that was the better fit. Each brief above still records what it generalises from and the open questions raised before building, in case any of them are worth a second, harder worked example later, the same way [Evidence-Labelled Meeting Notes](ideas/01-evidence-labelled-meeting-notes.md) got a second example testing the opposite failure mode from its first.
 
