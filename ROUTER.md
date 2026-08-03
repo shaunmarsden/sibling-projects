@@ -55,25 +55,37 @@ Use the question on each card. The detailed tool pages still set out their own l
 
 ![Choose between Post-Mortem Builder and What's Actually Causing This Delay.](assets/diagrams/20-router-post-mortem-vs-delay.svg)
 
+[Open Post-Mortem Builder skill](https://github.com/shaunmarsden/post-mortem-builder/blob/main/SKILL.md) · [Open What's Actually Causing This Delay skill](https://github.com/shaunmarsden/whats-causing-this-delay/blob/main/SKILL.md)
+
 #### Stated complaint or vague delay?
 
 ![Choose between Diagnose Before You Respond and What's Actually Causing This Delay.](assets/diagrams/21-router-complaint-vs-delay.svg)
+
+[Open Diagnose Before You Respond skill](https://github.com/shaunmarsden/diagnose-before-you-respond/blob/main/SKILL.md) · [Open What's Actually Causing This Delay skill](https://github.com/shaunmarsden/whats-causing-this-delay/blob/main/SKILL.md)
 
 #### One record or a whole list?
 
 ![Choose between Claims vs. Evidence Checker and List Hygiene Checker.](assets/diagrams/22-router-claims-vs-list.svg)
 
+[Open Claims vs. Evidence Checker skill](https://github.com/shaunmarsden/claims-vs-evidence-checker/blob/main/SKILL.md) · [Open List Hygiene Checker skill](https://github.com/shaunmarsden/list-hygiene-checker/blob/main/SKILL.md)
+
 #### Several instances or one decision?
 
 ![Choose between Is This Really a Pattern and Is This Actually a Good Fit.](assets/diagrams/23-router-pattern-vs-fit.svg)
+
+[Open Is This Really a Pattern skill](https://github.com/shaunmarsden/is-this-really-a-pattern/blob/main/SKILL.md) · [Open Is This Actually a Good Fit skill](https://github.com/shaunmarsden/is-this-a-good-fit/blob/main/SKILL.md)
 
 #### An advocate or a document?
 
 ![Choose between Brief Your Advocate and Make the Case.](assets/diagrams/24-router-advocate-vs-case.svg)
 
+[Open Brief Your Advocate skill](https://github.com/shaunmarsden/brief-your-advocate/blob/main/SKILL.md) · [Open Make the Case skill](https://github.com/shaunmarsden/make-the-case/blob/main/SKILL.md)
+
 #### First contact or an arranged conversation?
 
 ![Choose between First Contact That Isn't Generic and Prep Card Builder.](assets/diagrams/25-router-first-contact-vs-prep.svg)
+
+[Open First Contact That Isn't Generic skill](https://github.com/shaunmarsden/first-contact-that-isnt-generic/blob/main/SKILL.md) · [Open Prep Card Builder skill](https://github.com/shaunmarsden/prep-card-builder/blob/main/SKILL.md)
 
 - **None of these fit:** say so plainly rather than forcing the closest match. Suggest raising it as a new idea in a [sibling-projects discussion](https://github.com/shaunmarsden/sibling-projects/discussions) instead of inventing a method on the spot.
 
