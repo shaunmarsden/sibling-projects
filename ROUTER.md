@@ -49,12 +49,32 @@ flowchart TB
 
 ### Common Confusions Worth Checking Explicitly
 
-- **Post-Mortem Builder versus What's Actually Causing This Delay:** Post-Mortem Builder is for something that has already closed, failed, or gone quiet long enough to be treated as over. What's Actually Causing This Delay is for a decision still open and undecided, not yet closed either way. If nobody has said no and nothing has actually ended, route to the delay diagnosis, not the post-mortem.
-- **Diagnose Before You Respond versus What's Actually Causing This Delay:** a complaint names a specific stated issue that needs a reply. A stalled decision usually has no specific stated concern at all, just delay. If something specific was actually said, route to diagnosing the complaint; if the person has gone quiet or vague with nothing specific stated, route to the delay diagnosis instead.
-- **Claims vs. Evidence Checker versus List Hygiene Checker:** the claims checker is about whether one tracked status is actually supported by evidence, one item at a time. List Hygiene is about structural problems across a whole list, duplicates, missing fields, staleness, regardless of what any single status field claims. A single suspicious status routes to the claims checker; a whole list that has not been cleaned up routes to list hygiene.
-- **Is This Really a Pattern versus Is This Actually a Good Fit:** the pattern checker looks across several different instances over time to find a shared cause. The fit checker looks at several different aspects of one single decision. If you are comparing several complaints, incidents, or pieces of feedback, route to the pattern checker; if you are weighing one decision's pros and cons, route to the fit checker.
-- **Brief Your Advocate versus Make the Case:** Brief Your Advocate prepares someone else to present your case on your behalf, live or by forwarding it themselves. Make the Case builds the actual written document, which might be read directly by the decision-maker with nobody presenting it for you. If a specific person has agreed to carry this for you, route to briefing them; if the document itself is what gets sent or read, route to making the case.
-- **First Contact That Isn't Generic versus Prep Card Builder:** First Contact drafts the actual first message to someone you have not yet reached, before any conversation exists. Prep Card Builder is for a conversation that is already arranged, or already happening, and needs organising beforehand. If nothing has been sent or scheduled yet, route to first contact; if a conversation is already on the calendar, route to the prep card.
+Use the question on each card. The detailed tool pages still set out their own limits and guardrails.
+
+#### Closed outcome or ongoing delay?
+
+![Choose between Post-Mortem Builder and What's Actually Causing This Delay.](assets/diagrams/20-router-post-mortem-vs-delay.svg)
+
+#### Stated complaint or vague delay?
+
+![Choose between Diagnose Before You Respond and What's Actually Causing This Delay.](assets/diagrams/21-router-complaint-vs-delay.svg)
+
+#### One record or a whole list?
+
+![Choose between Claims vs. Evidence Checker and List Hygiene Checker.](assets/diagrams/22-router-claims-vs-list.svg)
+
+#### Several instances or one decision?
+
+![Choose between Is This Really a Pattern and Is This Actually a Good Fit.](assets/diagrams/23-router-pattern-vs-fit.svg)
+
+#### An advocate or a document?
+
+![Choose between Brief Your Advocate and Make the Case.](assets/diagrams/24-router-advocate-vs-case.svg)
+
+#### First contact or an arranged conversation?
+
+![Choose between First Contact That Isn't Generic and Prep Card Builder.](assets/diagrams/25-router-first-contact-vs-prep.svg)
+
 - **None of these fit:** say so plainly rather than forcing the closest match. Suggest raising it as a new idea in a [sibling-projects discussion](https://github.com/shaunmarsden/sibling-projects/discussions) instead of inventing a method on the spot.
 
 ## Produce a Clean Handoff
