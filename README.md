@@ -2,7 +2,7 @@
 
 A backlog of tool ideas, each one a pattern already proven in [practical-ai-sales-workflows](https://github.com/shaunmarsden/practical-ai-sales-workflows) or [book-to-skill](https://github.com/shaunmarsden/book-to-skill), generalised beyond sales to a wider audience. Eighteen are built as of 3 August 2026, each a genuine `SKILL.md` with a fictional worked example testing deliberate traps, not just a description. This file stays as the index and the record of what each one generalises from and why.
 
-**Not sure which of these actually fits your situation?** [The router](ROUTER.md) reads a plain-English description of your problem and hands off to the right one, including explicit checks for the pairs that sound similar but are not, a closed case versus one still stalled, a single decision's aspects versus a pattern across several instances. Use [the review checklist](checks/checklist.md) before acting on what it recommends.
+**Not sure which of these actually fits your situation?** Browsing on the web, [try the interactive picker](https://shaunmarsden.github.io/sibling-projects/) for clickable cards. Prefer to paste a description into an AI chat instead? [The router](ROUTER.md) reads a plain-English description of your problem and hands off to the right one, including explicit checks for the pairs that sound similar but are not, a closed case versus one still stalled, a single decision's aspects versus a pattern across several instances. Use [the review checklist](checks/checklist.md) before acting on what it recommends.
 
 ## Strongest, Most Differentiated
 
