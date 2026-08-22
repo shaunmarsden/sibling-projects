@@ -1,10 +1,10 @@
 # Sibling Projects
 
-A backlog of tool ideas, each one a pattern already proven in [practical-ai-sales-workflows](https://github.com/shaunmarsden/practical-ai-sales-workflows) or [book-to-skill](https://github.com/shaunmarsden/book-to-skill), generalised beyond sales to a wider audience. Eighteen are built as of 3 August 2026, each a genuine `SKILL.md` with a fictional worked example testing deliberate traps, not just a description. This file stays as the index and the record of what each one generalises from and why.
+A backlog of tool ideas, each one a pattern already proven in [practical-ai-sales-workflows](https://github.com/shaunmarsden/practical-ai-sales-workflows) or [book-to-skill](https://github.com/shaunmarsden/book-to-skill), generalised beyond sales to a wider audience. Nineteen are built as of 22 August 2026, each a genuine `SKILL.md` with a fictional worked example testing deliberate traps, not just a description. This file stays as the index and the record of what each one generalises from and why.
 
-**Not sure which of these actually fits your situation?** [The router](ROUTER.md) reads a plain-English description of your problem and hands off to the right one of all eighteen, including explicit checks for the pairs that sound similar but are not, a closed case versus one still stalled, a single decision's aspects versus a pattern across several instances. Paste it into any AI chat tool, then use [the review checklist](checks/checklist.md) before acting on what it recommends.
+**Not sure which of these actually fits your situation?** [The router](ROUTER.md) reads a plain-English description of your problem and hands off to the right one of all nineteen, including explicit checks for the pairs that sound similar but are not, a closed case versus one still stalled, a single decision's aspects versus a pattern across several instances. Paste it into any AI chat tool, then use [the review checklist](checks/checklist.md) before acting on what it recommends.
 
-Only torn between two similar-sounding tools, and browsing on the web rather than an AI chat? [The interactive picker](https://shaunmarsden.github.io/sibling-projects/) covers exactly those six confusable pairs as clickable cards. For anything else, use the router above or browse the full list below.
+Only torn between two similar-sounding tools, and browsing on the web rather than an AI chat? [The interactive picker](https://shaunmarsden.github.io/sibling-projects/) covers six confusable pairs as clickable cards. For anything else, use the router above or browse the full list below.
 
 ## Strongest, Most Differentiated
 
@@ -53,7 +53,11 @@ Four more, mined from patterns in the sales repo the first nine had not yet cove
 
 18. [First Contact That Isn't Generic](ideas/18-first-contact-that-isnt-generic.md): pick who to reach out to cold and draft a first message worth a reply, anchored to a real signal. The last un-mined sales-repo pattern. **Built:** [github.com/shaunmarsden/first-contact-that-isnt-generic](https://github.com/shaunmarsden/first-contact-that-isnt-generic)
 
-## All Eighteen Built
+## Round Eight
+
+19. [Do These Actually Match?](ideas/19-do-these-actually-match.md): compare two independently-kept records of the same thing and surface only the genuine disagreements, generalised from the Conflicting evidence label named in the sales repo's own methodology rather than mined from a specific sales-repo skill. **Built:** [github.com/shaunmarsden/do-these-actually-match](https://github.com/shaunmarsden/do-these-actually-match)
+
+## All Nineteen Built
 
 Every idea on this list now has a real repo, or in idea #9's case, a second worked example inside an existing one where that was the better fit. Each brief above still records what it generalises from and the open questions raised before building, in case any of them are worth a second, harder worked example later, the same way [Evidence-Labelled Meeting Notes](ideas/01-evidence-labelled-meeting-notes.md) got a second example testing the opposite failure mode from its first.
 

@@ -1,13 +1,13 @@
 ---
 name: sibling-projects-router
-description: Work out which of the sibling-projects tools actually fits a described situation, and hand off to it cleanly. Use when someone describes a problem in their own words and is not sure which of the eighteen tools applies, or when two tools sound similar and it matters which one is actually right. Do not use this to solve the underlying task yourself; it recommends a route, it does not do the work of the tool it recommends.
+description: Work out which of the sibling-projects tools actually fits a described situation, and hand off to it cleanly. Use when someone describes a problem in their own words and is not sure which of the nineteen tools applies, or when two tools sound similar and it matters which one is actually right. Do not use this to solve the underlying task yourself; it recommends a route, it does not do the work of the tool it recommends.
 ---
 
 # Sibling Projects Router
 
 You do not need to install anything to try this once: copy this whole file, paste it as your first message in any AI chat tool, then follow it with your actual situation.
 
-Someone describing a real situation rarely names the tool they need; they describe the problem. This reads that description and hands off to the right existing tool, without trying to solve the task itself and without inventing a new method one of the eighteen already covers.
+Someone describing a real situation rarely names the tool they need; they describe the problem. This reads that description and hands off to the right existing tool, without trying to solve the task itself and without inventing a new method one of the nineteen already covers.
 
 **Want clickable choices?** [Open the interactive tool picker](https://shaunmarsden.github.io/sibling-projects/).
 
@@ -48,6 +48,7 @@ flowchart TB
 | Sending the same template message to more than one recipient, or one recipient who needs to forward part of it | [Personalise, Don't Templatise](https://github.com/shaunmarsden/personalise-dont-templatise) |
 | Have an important conversation coming up and the useful information is scattered | [Prep Card Builder](https://github.com/shaunmarsden/prep-card-builder) |
 | Reaching out cold to someone you do not know, and want an opener anchored to something real rather than a generic observation | [First Contact That Isn't Generic](https://github.com/shaunmarsden/first-contact-that-isnt-generic) |
+| Two records that are each supposed to reflect the same thing, a count, a status, a set of dates, and you need to know where they actually disagree | [Do These Actually Match?](https://github.com/shaunmarsden/do-these-actually-match) |
 
 ### Common Confusions Worth Checking Explicitly
 
