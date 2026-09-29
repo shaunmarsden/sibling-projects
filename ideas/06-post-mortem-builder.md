@@ -1,21 +1,24 @@
 # Post-Mortem Builder
 
-**One line:** Works out whether a failed initiative is genuinely over or just blocked, and what would actually justify revisiting it, applied to any failed effort, not just a lost sale.
+Works out whether a failed effort is really over or just blocked, and what would justify trying again. It works for any failed effort, not just a lost sale.
 
-**Generalises from:** [review-lost-opportunity](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/.agents/skills/review-lost-opportunity/SKILL.md), the loss-classification logic (a genuine disqualification vs. a pause vs. something that could still be revived) applied beyond a sales deal.
+It takes the way [review-lost-opportunity](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/.agents/skills/review-lost-opportunity/SKILL.md) sorts a loss (a real disqualification, a pause, or something that could still be revived) and applies it beyond a sales deal.
 
-**Who it is for:** anyone doing a post-mortem on a failed pitch, a rejected job application, a cancelled project, a grant application that did not land, where "why did this actually fail" tends to get answered emotionally rather than by checking what was actually said.
+It's for anyone looking back on a failed pitch, a rejected job application, a cancelled project or a grant bid that didn't succeed. The question "why did this actually fail" tends to get an emotional answer, not one based on what people said.
 
-**Status:** Built, 2 August 2026. Live at [github.com/shaunmarsden/post-mortem-builder](https://github.com/shaunmarsden/post-mortem-builder), with four fictional worked cases (a rejected job application, a paused grant, a quiet partnership pitch, and an unconditional decline), testing whether hard-blocker, timing, no-decision and genuinely-closed get correctly told apart.
+I built it on 2 August 2026. [The repo](https://github.com/shaunmarsden/post-mortem-builder) has four made-up cases: a rejected job application, a paused grant, a partnership pitch that went quiet, and a flat decline. They test whether it can tell a hard blocker, a timing problem, no decision and a case closed for good apart.
 
 ## Rough Shape
 
-- **Gather the inputs:** whatever record exists of the failure, the actual stated reason if one was given, anything known about what changed on the other side; a clear separation between what was said and what is being assumed about why
-- **Method:** classify what actually happened (a stated reason, an inferred reason, no reason given at all); check whether the underlying problem is likely to still exist; state plainly what, if anything, would justify trying again, versus treating it as genuinely closed
-- **Guardrails:** never invent a reason where the evidence only supports an unknown; do not let this become a tool for justifying re-approaching someone who has clearly and explicitly said no
-- **Stop when unsafe:** there is no actual record of what was said or why, only a feeling that it did not work out, in which case there is nothing to classify
+It needs whatever record exists of the failure, the reason given if there was one, and anything known about what changed on the other side. It keeps what was said apart from what's being assumed about why.
+
+The method sorts what happened: a stated reason, an inferred reason, or no reason at all. It checks whether the underlying problem probably still exists. It says plainly what, if anything, would justify trying again, or whether to treat it as closed.
+
+It must never invent a reason where the evidence only supports an unknown. It must not become a way to justify going back to someone who has clearly said no.
+
+It stops if there's no record of what was said or why, only a feeling it didn't work out, because then there's nothing to sort.
 
 ## Open Questions
 
-- Does the classification set from the sales version (disqualification, timing, budget, wrong contact, and so on) travel to other domains, or does each domain (hiring, funding, project cancellation) need its own failure taxonomy?
-- Worth a worked example per domain, or one generic example plus a note on adapting the categories?
+- Do the sales version's categories (disqualification, timing, budget, wrong contact and so on) work in other fields, or does each field (hiring, funding, cancelled projects) need its own list of reasons for failure?
+- Is it worth a worked example for each field, or one general example plus a note on adapting the categories?

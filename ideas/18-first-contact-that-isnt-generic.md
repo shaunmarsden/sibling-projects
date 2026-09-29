@@ -1,9 +1,9 @@
 # First Contact That Isn't Generic
 
-**One line:** Pick who to reach out to cold and draft a first message worth a reply, anchored to a real, verifiable signal, not a generic observation.
+Pick who to contact cold and draft a first message worth replying to, built on a real signal you can check, not a general remark.
 
-**Generalises from:** [outbound-prospecting](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/.agents/skills/outbound-prospecting/SKILL.md), stripped of anything sales-specific. The last un-mined pattern in this series.
+It comes from [outbound-prospecting](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/.agents/skills/outbound-prospecting/SKILL.md), with everything sales-specific taken out. It was the last pattern in this series I hadn't used.
 
-**Who it is for:** anyone reaching out cold to someone they do not know, a job seeker contacting a hiring manager, someone reaching out to a potential mentor or collaborator, where the usual failure is a generic opener dressed up as personal.
+It's for anyone contacting someone they don't know, such as a job seeker writing to a hiring manager, or someone approaching a possible mentor or collaborator. The usual failure is a generic opener made to look personal.
 
-**Status:** Built, 3 August 2026. Live at [github.com/shaunmarsden/first-contact-that-isnt-generic](https://github.com/shaunmarsden/first-contact-that-isnt-generic), with a fictional job-search outreach shown as both a weak version (a generic "you're growing" observation, rejected for contrast) and a strong version built from the one specific, verifiable fact actually available, matching the sales repo's own weak/strong contrast pattern.
+I built it on 3 August 2026. [The repo](https://github.com/shaunmarsden/first-contact-that-isnt-generic) has a made-up job-search message in two versions. The weak one uses a generic "you're growing" remark and is there for contrast. The strong one is built from the one specific fact you can check. This matches the weak and strong pairs the sales repo uses.

@@ -1,21 +1,24 @@
 # List Hygiene Checker
 
-**One line:** Audits any spreadsheet or list for duplicates, missing fields, stale entries and rows that are not real records at all, the same way a CRM export gets checked.
+Checks any spreadsheet or list for duplicates, missing fields, stale entries and rows that aren't real records, the same way you'd check a CRM export.
 
-**Generalises from:** [crm-hygiene-review](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/.agents/skills/crm-hygiene-review/SKILL.md), stripped of anything CRM-specific.
+It comes from [crm-hygiene-review](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/.agents/skills/crm-hygiene-review/SKILL.md), with everything CRM-specific taken out.
 
-**Who it is for:** anyone maintaining a mailing list, a contact database, an inventory sheet, or any list that has been added to by more than one person over time and has probably accumulated duplicates and test rows nobody has cleaned up.
+It's for anyone keeping a mailing list, a contact database, a stock sheet, or any list that several people have added to over time. Those lists have usually built up duplicates and test rows that nobody has cleared out.
 
-**Status:** Built, 2 August 2026. Live at [github.com/shaunmarsden/list-hygiene-checker](https://github.com/shaunmarsden/list-hygiene-checker), with a fictional worked example (a running club membership list) built with five deliberate traps: a confident duplicate, a merely possible one, a fake test row, two incomplete real records, and one that looks complete but is actually stale.
+I built it on 2 August 2026. [The repo](https://github.com/shaunmarsden/list-hygiene-checker) has a made-up running club membership list with five deliberate traps: a clear duplicate, a possible one, a fake test row, two real records with gaps, and one that looks complete but is stale.
 
 ## Rough Shape
 
-- **Gather the inputs:** the list or export to check, with whatever fields exist; what counts as a required field for this specific list, since that varies by use case
-- **Method:** scan for missing required fields; flag likely duplicates separately from merely possible ones, never merge on name similarity alone; flag rows that look like test entries or placeholders rather than real records; flag entries that look complete but have not been touched in a long time
-- **Guardrails:** every finding is a suggestion, nothing is merged, deleted or changed automatically; keep confident and uncertain duplicate findings visibly separate; call clean rows clean rather than finding a problem everywhere
-- **Stop when unsafe:** the list is missing enough structure (no way to tell what a duplicate would even look like) that a check cannot be done with any confidence
+It needs the list or export, with whatever fields it has, and which fields this list must have filled in, since that varies from list to list.
+
+The method looks for missing required fields. It flags likely duplicates apart from merely possible ones, and never merges on a similar name alone. It flags rows that look like tests or placeholders rather than real records. It flags entries that look complete but nobody has touched in a long time.
+
+Every finding is a suggestion. It never merges, deletes or changes anything itself. It keeps sure and unsure duplicates apart, and calls clean rows clean rather than finding a problem everywhere.
+
+It stops if the list has too little structure to check with any confidence, for example no way to tell what a duplicate would look like.
 
 ## Open Questions
 
-- Same generic-vs-concrete question as the claims checker: pick one first use case (mailing lists? contact databases?) rather than trying to cover every possible spreadsheet from the start
-- Is there a genuinely different failure pattern per list type worth its own guidance (a mailing list's duplicates look different from an inventory sheet's), or does one generic method actually travel well?
+- The same question as for the claims checker: pick one first use (mailing lists? contact databases?) rather than trying to cover every spreadsheet from the start.
+- Does each type of list fail in its own way, enough to need its own guidance (a mailing list's duplicates look different from a stock sheet's), or does one general method work for all of them?

@@ -1,21 +1,24 @@
 # Diagnose Before You Respond
 
-**One line:** Works out what is actually driving a stated objection or complaint before answering it, rather than arguing with the surface wording.
+Works out what's really behind an objection or complaint before answering it, rather than arguing with the words on the surface.
 
-**Generalises from:** [objection-response](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/.agents/skills/objection-response/SKILL.md), applied to negotiation or customer complaints rather than a sales objection specifically.
+It comes from [objection-response](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/.agents/skills/objection-response/SKILL.md) and applies it to negotiations or customer complaints rather than sales objections.
 
-**Who it is for:** anyone facing pushback where answering the literal words risks missing the real concern underneath them, a customer complaint, an internal stakeholder pushing back on a plan, a negotiation where the stated sticking point may not be the real one.
+It's for anyone facing pushback where answering the literal words could miss the real concern: a customer complaint, a colleague pushing back on a plan, a negotiation where the stated sticking point may not be the real one.
 
-**Status:** Built, 2 August 2026, kept lightweight (5 files, one combined worked example rather than separate case/output/review files). Scoped tightly to resolve the speculative-ness flagged below: customer complaints specifically, not pushback in general. Live at [github.com/shaunmarsden/diagnose-before-you-respond](https://github.com/shaunmarsden/diagnose-before-you-respond), with a fictional bakery worked example testing both a genuine simple fault (should not be over-diagnosed) and a complaint whose real driver is not the stated issue.
+I built it on 2 August 2026 and kept it light: 5 files, with one combined worked example rather than separate case, output and review files. To answer the worry below that it was too speculative, I limited it to customer complaints, not pushback in general. [The repo](https://github.com/shaunmarsden/diagnose-before-you-respond) has a made-up bakery example. It tests a simple fault that shouldn't be over-diagnosed, and a complaint whose real cause isn't the one stated.
 
 ## Rough Shape
 
-- **Gather the inputs:** the pushback exactly as it was said or written; what is known about the person's actual authority or stake in the outcome; whether a fast, live answer or a considered written one is needed
-- **Method:** diagnose the likely real driver before drafting anything; produce a response that addresses the diagnosed driver, not just the surface wording; end with an honest next step, including walking away where that is genuinely the right call
-- **Guardrails:** never invent a driver the evidence does not actually support; never argue with the surface wording once a deeper driver has been diagnosed, that just relitigates the wrong problem
-- **Stop when unsafe:** the evidence is too thin to diagnose anything with real confidence, in which case say that plainly rather than guessing at a driver
+It needs the pushback exactly as said or written, what's known about the person's authority or stake in the outcome, and whether you need a quick live answer or a considered written one.
+
+The method works out the likely real reason before drafting anything. The response deals with that reason, not just the surface words. It ends with an honest next step, including walking away when that's the right call.
+
+It must never invent a reason the evidence doesn't support. Once it has found a deeper reason, it must never argue with the surface words, because that just argues the wrong problem again.
+
+It stops if the evidence is too thin to diagnose anything with confidence, and says so plainly rather than guessing.
 
 ## Open Questions
 
-- This is the one idea on the list most likely to feel like "generic conflict advice" unless it is scoped to one sharp use case. Worth deciding that use case (customer complaints specifically? internal stakeholder pushback specifically?) before building anything, rather than trying to cover all pushback everywhere
-- Might this actually be better as a second worked example inside a broader tool rather than its own repo, given how close it sits to ordinary negotiation advice without a strong generalisable method underneath it?
+- This is the idea on the list most likely to feel like "generic conflict advice" unless it's aimed at one sharp use. It's worth deciding that use (customer complaints? pushback from colleagues?) before building anything, rather than trying to cover all pushback everywhere.
+- Might this work better as a second worked example inside a broader tool rather than its own repo, given how close it sits to ordinary negotiation advice, with no strong general method underneath?
