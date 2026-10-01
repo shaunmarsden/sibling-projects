@@ -6,7 +6,7 @@ It comes from [objection-response](https://github.com/shaunmarsden/practical-ai-
 
 It's for anyone facing pushback where answering the literal words could miss the real concern: a customer complaint, a colleague pushing back on a plan, a negotiation where the stated sticking point may not be the real one.
 
-I built it on 2 August 2026 and kept it light: 5 files, with one combined worked example rather than separate case, output and review files. To answer the worry below that it was too speculative, I limited it to customer complaints, not pushback in general. [The repo](https://github.com/shaunmarsden/diagnose-before-you-respond) has a made-up bakery example. It tests a simple fault that shouldn't be over-diagnosed, and a complaint whose real cause isn't the one stated.
+I built it on 2 August 2026 and kept it light: five files, with one combined worked example rather than separate case, output and review files. To answer the worry below that it was too speculative, I limited it to customer complaints, not pushback in general. [The repo](https://github.com/shaunmarsden/diagnose-before-you-respond) has a made-up bakery example. It tests a simple fault that shouldn't be over-diagnosed, and a complaint whose real cause isn't the one stated.
 
 ## Rough Shape
 
