@@ -1,8 +1,8 @@
 # Human Review Checklist
 
-Run through this before acting on a routing decision.
+Go through this before you act on a routing decision.
 
-- [ ] The recommended tool was checked against the confusions table if anything about the situation sounded like a similar pair
-- [ ] The stated reason for the route names the specific detail that pointed here, not just a keyword match
-- [ ] If nothing in the table actually fit, that was said plainly rather than forcing the closest match
-- [ ] What the recommended tool itself requires from you, and what it still requires a person to check, was actually carried forward
+- [ ] If the situation sounded like one of the similar pairs, the router checked its choice against the confusions table
+- [ ] The reason for the route names the detail that pointed there, not just a matching keyword
+- [ ] If nothing in the table fitted, the router said so plainly instead of forcing the closest match
+- [ ] You've carried forward what the recommended tool needs from you, and what it still needs a person to check

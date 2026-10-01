@@ -1,9 +1,9 @@
 # Brief Your Advocate
 
-**One line:** Prepare someone else to carry your case to a third party you cannot be in the room for, without guessing what that person cares about from their job title.
+Prepare someone to carry your case to a third person when you can't be in the room, without guessing what that person cares about from their job title.
 
-**Generalises from:** [champion-enablement](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/.agents/skills/champion-enablement/SKILL.md), stripped of anything sales-specific.
+It comes from [champion-enablement](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/.agents/skills/champion-enablement/SKILL.md), with everything sales-specific taken out.
 
-**Who it is for:** anyone asking someone else to present or forward their case on their behalf, a colleague presenting a proposal, a friend vouching for them, a mentor raising something with a committee.
+It's for anyone asking someone else to present or pass on their case: a colleague presenting a proposal, a friend vouching for you, a mentor raising something with a committee.
 
-**Status:** Built, 2 August 2026. Live at [github.com/shaunmarsden/brief-your-advocate](https://github.com/shaunmarsden/brief-your-advocate), with a fictional worked example briefing a colleague to present a project proposal to two people, one with a genuinely known concern, one where nothing beyond their title was actually confirmed.
+I built it on 2 August 2026. [The repo](https://github.com/shaunmarsden/brief-your-advocate) has a made-up example of briefing a colleague to present a project proposal to two people. One has a known concern. For the other, nothing beyond their title is confirmed.

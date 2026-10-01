@@ -1,21 +1,24 @@
 # The Quiet Follow-Up
 
-**One line:** Decides what, if anything, to send next when someone has gone quiet, instead of working through a fixed run of increasingly persistent messages on a timer.
+Decides what, if anything, to send next when someone has gone quiet, instead of sending a fixed run of ever more pushy messages on a timer.
 
-**Generalises from:** [plan-chase-sequence](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/.agents/skills/plan-chase-sequence/SKILL.md), applied beyond a quiet sales prospect.
+It comes from [plan-chase-sequence](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/.agents/skills/plan-chase-sequence/SKILL.md) and applies it beyond a quiet sales prospect.
 
-**Who it is for:** recruiters following up on candidates who have gone silent, event organisers chasing no-shows or unconfirmed RSVPs, anyone waiting on an unanswered support ticket or a stalled internal request.
+It's for recruiters chasing candidates who have gone silent, event organisers chasing no-shows or unconfirmed RSVPs, and anyone waiting on an unanswered support ticket or a stalled internal request.
 
-**Status:** Built, 2 August 2026. Live at [github.com/shaunmarsden/the-quiet-follow-up](https://github.com/shaunmarsden/the-quiet-follow-up), with a fictional food bank volunteer coordinator worked example testing follow-up-now, answer-something-first, and stop.
+I built it on 2 August 2026. [The repo](https://github.com/shaunmarsden/the-quiet-follow-up) has a made-up worked example about a food bank's volunteer coordinator. It tests three outcomes: follow up now, answer something first, and stop.
 
 ## Rough Shape
 
-- **Gather the inputs:** the original exchange or request; what has already been sent and when; anything that has happened since (an out-of-office reply, a role change, genuine silence with no signal); how many follow-ups have already gone out
-- **Method:** decide first whether to follow up at all, change the channel or contact, add missing information, or actually stop; only once that decision is made, draft a message anchored to something real, never manufactured urgency
-- **Guardrails:** the anchor must be something real, never invented pressure or a fake deadline; never remind the person you have already followed up unless this is genuinely the last message; recognise when continuing to push stops being useful
-- **Stop when unsafe:** there is a specific signal that this should not be chased further at all (an explicit decline, someone who has left, a clear no) and the request is to chase anyway
+It needs the original message or request, what has been sent since and when, anything that has happened since (an out-of-office reply, a change of role, or silence with no signal at all), and how many follow-ups have gone out.
+
+The method first decides whether to follow up at all, change the channel or contact, add missing information, or stop. Only then does it draft a message, built on something real.
+
+The message must rest on something real, never invented pressure or a fake deadline. It never reminds the person you've already followed up unless this really is the last message. It knows when pushing further stops helping.
+
+It stops if there's a clear sign this shouldn't be chased any more (an outright decline, someone who has left, a clear no) and the request is to chase anyway.
 
 ## Open Questions
 
-- Does the decision tree (chase now, wait, change contact, add evidence, stop) hold up outside sales, or does each domain (recruiting vs. events vs. support) need its own version of "when to stop"?
-- Worth a fictional worked example per domain, given how differently a recruiting chase and a support-ticket chase actually feel in practice
+- Does the decision tree (chase now, wait, change contact, add evidence, stop) hold up outside sales, or does each field (recruiting, events, support) need its own version of "when to stop"?
+- Is it worth a made-up worked example for each field, given how different a recruiting chase and a support-ticket chase feel in practice?

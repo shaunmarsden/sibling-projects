@@ -1,9 +1,9 @@
 # Is This Really a Pattern?
 
-**One line:** Review a log of similar-sounding instances, complaints, feedback, incidents, and separate genuine repeated causes from similar wording that hides different problems.
+Go through a log of cases that sound alike (complaints, feedback, incidents) and tell real repeated causes apart from similar wording that hides different problems.
 
-**Generalises from:** [review-objection-patterns](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/.agents/skills/review-objection-patterns/SKILL.md), stripped of anything sales-specific.
+It comes from [review-objection-patterns](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/.agents/skills/review-objection-patterns/SKILL.md), with everything sales-specific taken out.
 
-**Who it is for:** anyone reviewing a log of recurring things, team retrospective feedback, customer complaints, bug reports, safety incidents, deciding whether a supposed pattern is actually supported before treating it as one.
+It's for anyone going through a log of things that keep coming up (team retrospective feedback, customer complaints, bug reports, safety incidents) and deciding whether a supposed pattern holds up before treating it as one.
 
-**Status:** Built, 2 August 2026. Live at [github.com/shaunmarsden/is-this-really-a-pattern](https://github.com/shaunmarsden/is-this-really-a-pattern), with a fictional team retrospective log where a shared word hides two different causes, and two differently worded complaints share the same real cause, testing both directions of the trap.
+I built it on 2 August 2026. [The repo](https://github.com/shaunmarsden/is-this-really-a-pattern) has a made-up team retrospective log. In it, one shared word hides two different causes, and two complaints worded differently share one real cause. That tests the trap in both directions.
