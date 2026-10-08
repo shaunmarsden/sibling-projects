@@ -55,11 +55,11 @@ Four more, taken from patterns in the sales repo that the first nine hadn't cove
 
 ## Round Eight
 
-19. [Do These Actually Match?](ideas/19-do-these-actually-match.md): compare two separately kept records of the same thing and show only where they really disagree. It comes from the Conflicting evidence label in the sales repo's method, not from a particular sales skill. [Repo](https://github.com/shaunmarsden/do-these-actually-match)
+19. [Do These Actually Match?](ideas/19-do-these-actually-match.md): compare two separately kept records of the same thing and show only where they really disagree. It comes from the Conflicting evidence label in the sales repo's approval-gated copilot guide, not from a particular sales skill. [Repo](https://github.com/shaunmarsden/do-these-actually-match)
 
 ## All Nineteen Built
 
-Every idea on this list now has its own repo, except #9, which worked better as a second worked example inside an existing one. Each brief above still records what the tool comes from and the questions I had before building it. Some may be worth a second, harder worked example later. [Evidence-Labelled Meeting Notes](ideas/01-evidence-labelled-meeting-notes.md) already has one, testing the opposite failure from its first.
+Every idea on this list now has its own repo, except #9, which worked better as a second worked example inside an existing one. Each brief above still records what the tool comes from and the questions I had before building it. Every tool now also has a second worked example that tests a different case from its first. For [Evidence-Labelled Meeting Notes](ideas/01-evidence-labelled-meeting-notes.md), it tests the opposite failure.
 
 ## Feedback
 
