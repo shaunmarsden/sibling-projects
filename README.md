@@ -1,6 +1,6 @@
 # Sibling Projects
 
-A list of tool ideas. Each one takes a pattern that already works in [practical-ai-sales-workflows](https://github.com/shaunmarsden/practical-ai-sales-workflows) or [book-to-skill](https://github.com/shaunmarsden/book-to-skill) and opens it up beyond sales. By 22 August 2026 I'd built all 19. Each is a real `SKILL.md` with a made-up worked example full of deliberate traps, not just a description. This file is the index, and the record of what each tool comes from and why.
+Nineteen free tools for everyday work. Each one takes a pattern from [practical-ai-sales-workflows](https://github.com/shaunmarsden/practical-ai-sales-workflows) or [book-to-skill](https://github.com/shaunmarsden/book-to-skill) and opens it up beyond sales. They started as ideas, and by 22 August 2026 I'd built all 19. Each is a real `SKILL.md` with a made-up worked example full of deliberate traps, not just a description. This file is the index, and the record of what each tool comes from and why.
 
 **Not sure which one fits your situation?** [The router](ROUTER.md) reads a plain description of your problem and points you to the right one of the 19. It checks the pairs that sound alike but aren't, such as a closed case against one still stalled, or the parts of one decision against a pattern across several cases. Paste it into any AI chat tool, then go through [the review checklist](checks/checklist.md) before you act on what it says.
 
