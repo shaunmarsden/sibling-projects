@@ -6,7 +6,7 @@ It goes one level up from [the sales AI output rubric](https://github.com/shaunm
 
 It's for anyone using AI for repeated work in a field with real stakes: legal drafting, code review, marketing copy, hiring screens, research summaries. Almost nobody decides what "good" means before they start trusting an AI's answer.
 
-I built it on 2 August 2026. [The repo](https://github.com/shaunmarsden/build-your-own-rubric) has a made-up worked example on customer support replies for Thornbury Outfitters. It builds a rubric, then applies it to a new output that fails in a subtler way than the bad example the rubric came from, to check the rubric still holds.
+I built it on 2 August 2026. [The tool's folder](../tools/build-your-own-rubric/) has a made-up worked example on customer support replies for Thornbury Outfitters. It builds a rubric, then applies it to a new output that fails in a subtler way than the bad example the rubric came from, to check the rubric still holds.
 
 ## Rough Shape
 

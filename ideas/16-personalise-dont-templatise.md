@@ -6,4 +6,4 @@ It comes from [draft-follow-up-email](https://github.com/shaunmarsden/practical-
 
 It's for anyone who sends the same template again and again (a teacher's updates to parents, an event organiser's follow-ups to attendees, HR's onboarding emails), where the template stays fixed and only the personal detail changes.
 
-I built it on 3 August 2026. [The repo](https://github.com/shaunmarsden/personalise-dont-templatise) has a made-up photography workshop's follow-up template, sent to one person, to two people together, and in a case where it's forwarded to someone else. The tool handles all three without changing the template.
+I built it on 3 August 2026. [The tool's folder](../tools/personalise-dont-templatise/) has a made-up photography workshop's follow-up template, sent to one person, to two people together, and in a case where it's forwarded to someone else. The tool handles all three without changing the template.

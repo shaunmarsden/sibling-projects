@@ -6,7 +6,7 @@ It comes from [pipeline-evidence-review](https://github.com/shaunmarsden/practic
 
 It's for project managers checking status reports, recruiters checking a list of candidates, and anyone keeping a tracker where the status can quietly run ahead of what happened.
 
-I built it on 2 August 2026. [The repo](https://github.com/shaunmarsden/claims-vs-evidence-checker) has a made-up punch list for a home renovation. It catches a false "done" and a stale "in progress", and leaves two healthy items alone.
+I built it on 2 August 2026. [The tool's folder](../tools/claims-vs-evidence-checker/) has a made-up punch list for a home renovation. It catches a false "done" and a stale "in progress", and leaves two healthy items alone.
 
 ## Rough Shape
 

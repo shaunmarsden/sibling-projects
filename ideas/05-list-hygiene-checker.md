@@ -6,7 +6,7 @@ It comes from [crm-hygiene-review](https://github.com/shaunmarsden/practical-ai-
 
 It's for anyone keeping a mailing list, a contact database, a stock sheet, or any list that several people have added to over time. Those lists have usually built up duplicates and test rows that nobody has cleared out.
 
-I built it on 2 August 2026. [The repo](https://github.com/shaunmarsden/list-hygiene-checker) has a made-up running club membership list with five deliberate traps: a clear duplicate, a possible one, a fake test row, two real records with gaps, and one that looks complete but is stale.
+I built it on 2 August 2026. [The tool's folder](../tools/list-hygiene-checker/) has a made-up running club membership list with five deliberate traps: a clear duplicate, a possible one, a fake test row, two real records with gaps, and one that looks complete but is stale.
 
 ## Rough Shape
 

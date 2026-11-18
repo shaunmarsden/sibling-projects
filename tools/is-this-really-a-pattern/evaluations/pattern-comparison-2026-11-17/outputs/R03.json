@@ -1,0 +1,6 @@
+{
+  "run": "R03",
+  "status": "returned",
+  "agent": "/root/pattern_r03",
+  "text": "Three of five ticket entries concern export: **60% of this week’s complete five-ticket log** (E1–E3 ÷ E1–E5).\n\nThis is a share of ticket entries, not independent failures or customers. E1–E3 all concern customer A’s single unresolved event X, so they represent three occurrences but only one distinct instance. The log contains three distinct events and three customers overall.\n\nBy wording, export recurs across E1–E3; login appears in E4 and display in E5. By underlying cause, all five entries are unknown because no diagnoses or supporting evidence are recorded. “Failed” is shared wording, not evidence of a shared cause.\n\nThe export issue is an isolated signal, not a demonstrated pattern across distinct instances. Confidence is high in the 60% entry count and the single-event grouping; there is insufficient evidence for any causal pattern or wider failure rate. A person should check the diagnoses and decide whether any fix or process change is warranted."
+}

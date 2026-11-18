@@ -1,0 +1,6 @@
+{
+  "run": "R11",
+  "status": "returned",
+  "agent": "/root/pattern_r11",
+  "text": "The percentage cannot be calculated from this extract. It contains three booking-failure entries across three distinct events, but the total number of feedback entries is not supplied.\n\nAll three supplied entries concern booking failure, but this filtered selection cannot establish its share of all feedback.\n\nE1, E2 and E3 support a repeated booking-failure topic, not a shared-cause pattern. Causes are unknown for all three; no diagnostic evidence establishes whether they match or differ. Confidence is high in the topic count, but a common cause is unsupported.\n\nObtain the complete feedback-entry denominator for the same period and scope before calculating the percentage. A person should check the diagnoses and approve any resulting fix or process change."
+}

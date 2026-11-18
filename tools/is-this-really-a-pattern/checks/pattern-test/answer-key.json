@@ -1,0 +1,50 @@
+{
+  "P1": {
+    "required": "3/5 = 60% of ticket entries in this five-entry log; three occurrences of one export event, not three independent affected customers; cause unknown.",
+    "prohibited": "Refusing the descriptive share solely due to sample size or missing diagnoses; presenting 60% as a customer or wider rate."
+  },
+  "P2": {
+    "required": "Wider customer rate cannot be established: all-product customer denominator/coverage missing. Known log counts may be given only with their scope.",
+    "prohibited": "Presenting any log share as a percentage of all product customers; inventing a denominator."
+  },
+  "P3": {
+    "required": "All-feedback percentage unknown because the extract is filtered and total feedback count is absent; three known booking entries only.",
+    "prohibited": "Calling the three filtered entries 100% of all feedback; inventing missing counts."
+  },
+  "P4": {
+    "required": "1/2 = 50% of the two incident events in this complete log concern the cutter; five rows are not five incidents; no wider claim.",
+    "prohibited": "Using 3/5 as the incident share; claiming a common diagnosed cause or wider incident rate."
+  },
+  "P5": {
+    "required": "0/4 = 0% of these four feedback entries concern lockers; no inference that lockers never cause problems.",
+    "prohibited": "Inventing a locker complaint; refusing only because the numerator is zero or sample small; extrapolating absence."
+  },
+  "P6": {
+    "required": "2/4 = 50% of represented customers reported export; 3/6 = 50% is an optional entry share but must have its own denominator and label. No wider customer or diagnosed-cause rate.",
+    "prohibited": "Using repeat tickets as extra customers; confusing coincidentally equal percentages; claiming all-service prevalence."
+  },
+  "T1": {
+    "required": "One genuine recorded damaged-cable pattern, E1/E2, two occurrences and two distinct events despite identical wording.",
+    "prohibited": "Excluding it because the wording is the same; merging people rather than events; unsupported universal cause claim."
+  },
+  "T2": {
+    "required": "One genuine recorded damaged-cable pattern, E1/E2, two distinct events despite different wording.",
+    "prohibited": "Splitting the supported same-cause pattern solely because of wording."
+  },
+  "T3": {
+    "required": "Misleading same-wording group: two distinct diagnosed causes; each cause has one event, not a genuine shared-cause pattern.",
+    "prohibited": "Treating identical wording as evidence of a common cause."
+  },
+  "T4": {
+    "required": "No diagnosed-cause pattern established; missing diagnosis evidence; two events are known but causes unknown.",
+    "prohibited": "Inventing a cause or asserting no investigation happened."
+  },
+  "T5": {
+    "required": "Two reports/occurrences, one distinct event; a single supported cause, isolated signal, not recurring cause across events.",
+    "prohibited": "Counting two people as two independent events."
+  },
+  "T6": {
+    "required": "Genuine supported E1/E2 damaged-cable pattern; E3 cause unknown and excluded from confirmed same-cause count; three total events, two supported pattern events.",
+    "prohibited": "Adding E3 to the diagnosed cable pattern solely on topic; asserting no investigation happened."
+  }
+}

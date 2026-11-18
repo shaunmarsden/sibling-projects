@@ -1,0 +1,6 @@
+{
+  "run": "R18",
+  "status": "returned",
+  "agent": "/root/pattern_r18",
+  "text": "0% of this log concerns lockers: 0 of 4 feedback entries. Changing-room temperature feedback is not locker feedback.\n\nThe log contains four occurrences from four distinct events. By wording/topic:\n\n- Changing room cold: E1/A and E4/D, two occurrences across two events.\n- Parking unclear: E2/B, one isolated signal.\n- Pool timetable unclear: E3/C, one isolated signal.\n\nThere are no diagnosed causes, so all four causes remain unknown. The repeated changing-room wording is clear, but there is insufficient evidence to establish a shared underlying driver. Likewise, “unclear” does not establish a common cause for parking and pool-timetable feedback.\n\nConfidence is high in the locker entry count and the wording groups, but low in any shared-cause finding. Diagnosis work is needed before proposing a process change. A person should check the diagnoses, assess significance and approve any resulting action."
+}

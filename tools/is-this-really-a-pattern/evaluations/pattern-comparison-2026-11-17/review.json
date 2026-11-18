@@ -1,0 +1,879 @@
+{
+  "date": "2026-11-17",
+  "reviewer": "Codex orchestrator",
+  "blind": false,
+  "independent": false,
+  "rules": "checks/pattern-test/plan.md",
+  "note": "Check 5 requires an explained low/medium/high level for each reported finding, not just arithmetic. Unknown-cause findings are not penalised for declining a causal conclusion. Generic scoped levels can cover all findings if their scope is explicit. No extra criteria were added.",
+  "runs": [
+    {
+      "run": "R01",
+      "case": "P2",
+      "experiment": "percentage",
+      "variant": "baseline",
+      "source": "checks/pattern-test/cases.json#P2",
+      "output": "outputs/R01.json",
+      "checks": [
+        {
+          "check": 1,
+          "judgement": "Meets",
+          "reason": "'total customer population is missing' matches P2's absent wider denominator."
+        },
+        {
+          "check": 2,
+          "judgement": "Meets",
+          "reason": "'five occurrences across three distinct events and three customers' counts X/Y/Z correctly."
+        },
+        {
+          "check": 3,
+          "judgement": "Meets",
+          "reason": "'cannot be determined' correctly refuses all-product prevalence."
+        },
+        {
+          "check": 4,
+          "judgement": "Meets",
+          "reason": "'not a demonstrated pattern across distinct instances' keeps export's single event separate; unknown diagnoses remain unknown."
+        },
+        {
+          "check": 5,
+          "judgement": "Meets",
+          "reason": "'Confidence is high' for repeat identity and 'any recurring-cause claim is low' explain scope; absent diagnostic evidence and human approval are explicit."
+        }
+      ],
+      "automatic_failures": []
+    },
+    {
+      "run": "R02",
+      "case": "T3",
+      "experiment": "template",
+      "variant": "baseline",
+      "source": "checks/pattern-test/cases.json#T3",
+      "output": "outputs/R02.json",
+      "checks": [
+        {
+          "check": 1,
+          "judgement": "Meets",
+          "reason": "Cable replacement and timer disabling match T3 E1/E2."
+        },
+        {
+          "check": 2,
+          "judgement": "Meets",
+          "reason": "'one occurrence per distinct event' preserves two events."
+        },
+        {
+          "check": 3,
+          "judgement": "Meets",
+          "reason": "'No repeated underlying cause' is the required different-cause conclusion."
+        },
+        {
+          "check": 4,
+          "judgement": "Meets",
+          "reason": "'healthy cable' in E2 argues against a shared cable fault."
+        },
+        {
+          "check": 5,
+          "judgement": "Meets",
+          "reason": "All template sections, supporting E1/E2, explained High confidence and contrary healthy-cable evidence are present."
+        }
+      ],
+      "automatic_failures": []
+    },
+    {
+      "run": "R03",
+      "case": "P1",
+      "experiment": "percentage",
+      "variant": "candidate",
+      "source": "checks/pattern-test/cases.json#P1",
+      "output": "outputs/R03.json",
+      "checks": [
+        {
+          "check": 1,
+          "judgement": "Meets",
+          "reason": "'Three of five' and 'one distinct instance' match P1 E1-E3."
+        },
+        {
+          "check": 2,
+          "judgement": "Meets",
+          "reason": "60% is labelled an entry share, not failures or customers."
+        },
+        {
+          "check": 3,
+          "judgement": "Meets",
+          "reason": "'60% of this ... five-ticket log' answers the requested scoped share."
+        },
+        {
+          "check": 4,
+          "judgement": "Meets",
+          "reason": "'all five entries are unknown' avoids a diagnosed-cause pattern."
+        },
+        {
+          "check": 5,
+          "judgement": "Needs correction",
+          "reason": "'Confidence is high in the 60% entry count and the single-event grouping' covers export, but no explained low/medium/high level is given for the login/display findings."
+        }
+      ],
+      "automatic_failures": []
+    },
+    {
+      "run": "R04",
+      "case": "P2",
+      "experiment": "percentage",
+      "variant": "candidate",
+      "source": "checks/pattern-test/cases.json#P2",
+      "output": "outputs/R04.json",
+      "checks": [
+        {
+          "check": 1,
+          "judgement": "Meets",
+          "reason": "'total customer count is missing' matches P2; no wider count invented."
+        },
+        {
+          "check": 2,
+          "judgement": "Meets",
+          "reason": "The table separates 5 entries, 3 events and 3 customers."
+        },
+        {
+          "check": 3,
+          "judgement": "Meets",
+          "reason": "'cannot be calculated' correctly refuses all-product prevalence; optional 3/5 is log-only."
+        },
+        {
+          "check": 4,
+          "judgement": "Meets",
+          "reason": "'all five entries have unknown causes' does not invent a common failed-function cause."
+        },
+        {
+          "check": 5,
+          "judgement": "Meets",
+          "reason": "High repeat-report confidence and Low confidence in any common-cause finding are explained by identity and missing diagnoses; review remains human-controlled."
+        }
+      ],
+      "automatic_failures": []
+    },
+    {
+      "run": "R05",
+      "case": "P5",
+      "experiment": "percentage",
+      "variant": "baseline",
+      "source": "checks/pattern-test/cases.json#P5",
+      "output": "outputs/R05.json",
+      "checks": [
+        {
+          "check": 1,
+          "judgement": "Meets",
+          "reason": "'0 of 4 entries' matches P5: none mentions lockers."
+        },
+        {
+          "check": 2,
+          "judgement": "Meets",
+          "reason": "E1/E4 are two events; E2/E3 each one."
+        },
+        {
+          "check": 3,
+          "judgement": "Meets",
+          "reason": "'0%' is confined to the complete one-day log."
+        },
+        {
+          "check": 4,
+          "judgement": "Meets",
+          "reason": "'shared underlying cause remains unestablished' correctly distinguishes wording from diagnosis."
+        },
+        {
+          "check": 5,
+          "judgement": "Needs correction",
+          "reason": "'with high confidence' covers changing-room wording, but parking and timetable isolated findings have no explained low/medium/high level."
+        }
+      ],
+      "automatic_failures": []
+    },
+    {
+      "run": "R06",
+      "case": "T1",
+      "experiment": "template",
+      "variant": "baseline",
+      "source": "checks/pattern-test/cases.json#T1",
+      "output": "outputs/R06.json",
+      "checks": [
+        {
+          "check": 1,
+          "judgement": "Meets",
+          "reason": "Reproduction, measured damaged cables and successful replacement match T1 E1/E2."
+        },
+        {
+          "check": 2,
+          "judgement": "Meets",
+          "reason": "'two distinct events and rooms' correctly counts two."
+        },
+        {
+          "check": 3,
+          "judgement": "Meets",
+          "reason": "'repeated damaged-cable fault' is retained despite identical wording."
+        },
+        {
+          "check": 4,
+          "judgement": "Meets",
+          "reason": "'Nothing recorded contradicts' and unknown upstream damage cause limit the causal claim."
+        },
+        {
+          "check": 5,
+          "judgement": "Meets",
+          "reason": "All template sections, supporting E1/E2, High scoped confidence, counter-evidence statement and human approval are present."
+        }
+      ],
+      "automatic_failures": []
+    },
+    {
+      "run": "R07",
+      "case": "T4",
+      "experiment": "template",
+      "variant": "baseline",
+      "source": "checks/pattern-test/cases.json#T4",
+      "output": "outputs/R07.json",
+      "checks": [
+        {
+          "check": 1,
+          "judgement": "Meets",
+          "reason": "'neither has a diagnosis or investigation record' reports the missing supplied records in T4."
+        },
+        {
+          "check": 2,
+          "judgement": "Meets",
+          "reason": "'two distinct instances' matches events A/B."
+        },
+        {
+          "check": 3,
+          "judgement": "Meets",
+          "reason": "'repeated reported symptom, not a genuine shared-cause pattern' meets T4."
+        },
+        {
+          "check": 4,
+          "judgement": "Meets",
+          "reason": "'Different causes are also not demonstrated' preserves unknowns."
+        },
+        {
+          "check": 5,
+          "judgement": "Meets",
+          "reason": "Template complete; High symptom/low shared-cause confidence, missing diagnosis evidence and human approval are explicit."
+        }
+      ],
+      "automatic_failures": []
+    },
+    {
+      "run": "R08",
+      "case": "T2",
+      "experiment": "template",
+      "variant": "baseline",
+      "source": "checks/pattern-test/cases.json#T2",
+      "output": "outputs/R08.json",
+      "checks": [
+        {
+          "check": 1,
+          "judgement": "Meets",
+          "reason": "The reproduced, measured cable faults match T2 E1/E2."
+        },
+        {
+          "check": 2,
+          "judgement": "Meets",
+          "reason": "Different rooms/days/events support two distinct instances."
+        },
+        {
+          "check": 3,
+          "judgement": "Meets",
+          "reason": "'same diagnosed cause: a damaged cable' meets T2 despite different words."
+        },
+        {
+          "check": 4,
+          "judgement": "Meets",
+          "reason": "'There is no contradictory evidence' limits the shared diagnosis to this log."
+        },
+        {
+          "check": 5,
+          "judgement": "Meets",
+          "reason": "All template sections, E1/E2, High scoped confidence and human-controlled next steps are present."
+        }
+      ],
+      "automatic_failures": []
+    },
+    {
+      "run": "R09",
+      "case": "T3",
+      "experiment": "template",
+      "variant": "candidate",
+      "source": "checks/pattern-test/cases.json#T3",
+      "output": "outputs/R09.json",
+      "checks": [
+        {
+          "check": 1,
+          "judgement": "Needs correction",
+          "reason": "'too small to establish a recurring cause' gives sample size as the reason, although two supported same-cause events would meet the rule. T3 fails to show a recurring cause because the diagnoses differ. Later reasoning is correct, but this explanation needs correction."
+        },
+        {
+          "check": 2,
+          "judgement": "Meets",
+          "reason": "'one occurrence per event' matches T3."
+        },
+        {
+          "check": 3,
+          "judgement": "Meets",
+          "reason": "'No repeated underlying cause' is the correct case conclusion."
+        },
+        {
+          "check": 4,
+          "judgement": "Meets",
+          "reason": "The healthy cable and timer diagnosis correctly keep the causes apart."
+        },
+        {
+          "check": 5,
+          "judgement": "Meets",
+          "reason": "All sections, E1/E2 support, High explained levels and direct counter-evidence are present."
+        }
+      ],
+      "automatic_failures": []
+    },
+    {
+      "run": "R10",
+      "case": "T6",
+      "experiment": "template",
+      "variant": "candidate",
+      "source": "checks/pattern-test/cases.json#T6",
+      "output": "outputs/R10.json",
+      "checks": [
+        {
+          "check": 1,
+          "judgement": "Needs correction",
+          "reason": "'E3 has no investigation or diagnosis' goes beyond T6's 'No diagnosis or investigation record supplied'. This invents investigation history and triggers automatic failure A1."
+        },
+        {
+          "check": 2,
+          "judgement": "Meets",
+          "reason": "Three events total; two supported cable events are counted correctly."
+        },
+        {
+          "check": 3,
+          "judgement": "Meets",
+          "reason": "The E1/E2 cable pattern and exclusion of E3's unknown cause match the required main conclusion."
+        },
+        {
+          "check": 4,
+          "judgement": "Meets",
+          "reason": "'grouping E3 ... as another cable fault would be unsupported' correctly limits the causal group despite the separate factual error."
+        },
+        {
+          "check": 5,
+          "judgement": "Needs correction",
+          "reason": "The High levels cover the cable and symptom groups, but the separately reported E3 isolated signal lacks an explained low/medium/high level."
+        }
+      ],
+      "automatic_failures": [
+        {
+          "rule": "A1",
+          "reason": "Invented investigation history: 'E3 has no investigation or diagnosis' versus no record supplied."
+        }
+      ]
+    },
+    {
+      "run": "R11",
+      "case": "P3",
+      "experiment": "percentage",
+      "variant": "candidate",
+      "source": "checks/pattern-test/cases.json#P3",
+      "output": "outputs/R11.json",
+      "checks": [
+        {
+          "check": 1,
+          "judgement": "Meets",
+          "reason": "'total number of feedback entries is not supplied' matches P3."
+        },
+        {
+          "check": 2,
+          "judgement": "Meets",
+          "reason": "Three known entries/events are not treated as the complete denominator."
+        },
+        {
+          "check": 3,
+          "judgement": "Meets",
+          "reason": "'percentage cannot be calculated' correctly refuses the all-feedback share."
+        },
+        {
+          "check": 4,
+          "judgement": "Meets",
+          "reason": "'not a shared-cause pattern' leaves three unknown diagnoses unresolved."
+        },
+        {
+          "check": 5,
+          "judgement": "Meets",
+          "reason": "The sole topic candidate has explained High confidence; no diagnostic evidence supports matching or differing causes; denominator check and human approval are explicit."
+        }
+      ],
+      "automatic_failures": []
+    },
+    {
+      "run": "R12",
+      "case": "T2",
+      "experiment": "template",
+      "variant": "candidate",
+      "source": "checks/pattern-test/cases.json#T2",
+      "output": "outputs/R12.json",
+      "checks": [
+        {
+          "check": 1,
+          "judgement": "Meets",
+          "reason": "Reproduction, measurement, replacement and resolved faults match T2."
+        },
+        {
+          "check": 2,
+          "judgement": "Meets",
+          "reason": "Two occurrences and distinct events are preserved."
+        },
+        {
+          "check": 3,
+          "judgement": "Meets",
+          "reason": "The repeated cable cause is identified despite different wording."
+        },
+        {
+          "check": 4,
+          "judgement": "Meets",
+          "reason": "'No contradictory diagnosis' and unknown wider/upstream cause limit the finding."
+        },
+        {
+          "check": 5,
+          "judgement": "Meets",
+          "reason": "Both candidate rows have scoped High confidence; all sections and supporting E1/E2, contrary-evidence statement and human review appear."
+        }
+      ],
+      "automatic_failures": []
+    },
+    {
+      "run": "R13",
+      "case": "T1",
+      "experiment": "template",
+      "variant": "candidate",
+      "source": "checks/pattern-test/cases.json#T1",
+      "output": "outputs/R13.json",
+      "checks": [
+        {
+          "check": 1,
+          "judgement": "Meets",
+          "reason": "The two diagnoses and days 2/9 match T1."
+        },
+        {
+          "check": 2,
+          "judgement": "Meets",
+          "reason": "Two events remain distinct."
+        },
+        {
+          "check": 3,
+          "judgement": "Meets",
+          "reason": "A genuine cable pattern is found with identical wording."
+        },
+        {
+          "check": 4,
+          "judgement": "Meets",
+          "reason": "'No contradictory evidence' is explicit; no shared upstream cause inferred."
+        },
+        {
+          "check": 5,
+          "judgement": "Meets",
+          "reason": "All sections, supporting E1/E2, High explained confidence and human approval are present."
+        }
+      ],
+      "automatic_failures": []
+    },
+    {
+      "run": "R14",
+      "case": "T6",
+      "experiment": "template",
+      "variant": "baseline",
+      "source": "checks/pattern-test/cases.json#T6",
+      "output": "outputs/R14.json",
+      "checks": [
+        {
+          "check": 1,
+          "judgement": "Meets",
+          "reason": "'E3 has no investigation record' correctly limits the missing evidence to T6's supplied record."
+        },
+        {
+          "check": 2,
+          "judgement": "Meets",
+          "reason": "Three events total, two confirmed cable events."
+        },
+        {
+          "check": 3,
+          "judgement": "Meets",
+          "reason": "E1/E2 form a recorded cable pattern; E3 remains unknown."
+        },
+        {
+          "check": 4,
+          "judgement": "Meets",
+          "reason": "'not a three-event cable-fault pattern' and absent contradictory diagnoses keep groups separate."
+        },
+        {
+          "check": 5,
+          "judgement": "Needs correction",
+          "reason": "The High levels cover symptom and cable groups, but E3's separate isolated finding has no explained low/medium/high level."
+        }
+      ],
+      "automatic_failures": []
+    },
+    {
+      "run": "R15",
+      "case": "T5",
+      "experiment": "template",
+      "variant": "candidate",
+      "source": "checks/pattern-test/cases.json#T5",
+      "output": "outputs/R15.json",
+      "checks": [
+        {
+          "check": 1,
+          "judgement": "Meets",
+          "reason": "One reproduced damaged-cable fault and replacement match T5."
+        },
+        {
+          "check": 2,
+          "judgement": "Meets",
+          "reason": "'two reports ... one event' does not turn attendees into events."
+        },
+        {
+          "check": 3,
+          "judgement": "Meets",
+          "reason": "'None' under Genuine Patterns correctly rejects recurrence."
+        },
+        {
+          "check": 4,
+          "judgement": "Meets",
+          "reason": "'both reports concern event A' is the limiting evidence."
+        },
+        {
+          "check": 5,
+          "judgement": "Meets",
+          "reason": "All sections, High scoped confidence, supporting E1/E2 and human-controlled action are present."
+        }
+      ],
+      "automatic_failures": []
+    },
+    {
+      "run": "R16",
+      "case": "P6",
+      "experiment": "percentage",
+      "variant": "candidate",
+      "source": "checks/pattern-test/cases.json#P6",
+      "output": "outputs/R16.json",
+      "checks": [
+        {
+          "check": 1,
+          "judgement": "Meets",
+          "reason": "A/B are the two of four represented customers in P6."
+        },
+        {
+          "check": 2,
+          "judgement": "Meets",
+          "reason": "Separates 2/4 customers from 3/6 entries, X repeated, four events total."
+        },
+        {
+          "check": 3,
+          "judgement": "Meets",
+          "reason": "'50% ... this log only' correctly answers the represented-customer question."
+        },
+        {
+          "check": 4,
+          "judgement": "Meets",
+          "reason": "'causes ... low' and unknown diagnoses avoid a shared-cause claim."
+        },
+        {
+          "check": 5,
+          "judgement": "Meets",
+          "reason": "High descriptive confidence and Low shared-cause confidence are explained for all groups by complete identities and absent diagnostic evidence; human approval remains."
+        }
+      ],
+      "automatic_failures": []
+    },
+    {
+      "run": "R17",
+      "case": "T4",
+      "experiment": "template",
+      "variant": "candidate",
+      "source": "checks/pattern-test/cases.json#T4",
+      "output": "outputs/R17.json",
+      "checks": [
+        {
+          "check": 1,
+          "judgement": "Meets",
+          "reason": "'Neither includes a diagnosis or investigation record' matches T4's missing records."
+        },
+        {
+          "check": 2,
+          "judgement": "Meets",
+          "reason": "Two separate events, one occurrence each."
+        },
+        {
+          "check": 3,
+          "judgement": "Meets",
+          "reason": "Repeated symptom is distinguished from an unestablished underlying-cause pattern."
+        },
+        {
+          "check": 4,
+          "judgement": "Meets",
+          "reason": "'neither shared nor different causes' correctly preserves both unknowns."
+        },
+        {
+          "check": 5,
+          "judgement": "Meets",
+          "reason": "The sole reported-symptom candidate has High explained confidence; missing diagnoses limit causal conclusions; all sections and human approval appear."
+        }
+      ],
+      "automatic_failures": []
+    },
+    {
+      "run": "R18",
+      "case": "P5",
+      "experiment": "percentage",
+      "variant": "candidate",
+      "source": "checks/pattern-test/cases.json#P5",
+      "output": "outputs/R18.json",
+      "checks": [
+        {
+          "check": 1,
+          "judgement": "Meets",
+          "reason": "0 of 4 locker entries matches P5."
+        },
+        {
+          "check": 2,
+          "judgement": "Meets",
+          "reason": "E1/A and E4/D stay distinct; two other single events."
+        },
+        {
+          "check": 3,
+          "judgement": "Meets",
+          "reason": "'0%' is explicitly this log, not wider absence."
+        },
+        {
+          "check": 4,
+          "judgement": "Meets",
+          "reason": "No diagnosed cause is invented from cold/unclear wording."
+        },
+        {
+          "check": 5,
+          "judgement": "Meets",
+          "reason": "High wording/count confidence and Low any-shared-cause confidence explain all findings, with missing diagnoses and human approval."
+        }
+      ],
+      "automatic_failures": []
+    },
+    {
+      "run": "R19",
+      "case": "P6",
+      "experiment": "percentage",
+      "variant": "baseline",
+      "source": "checks/pattern-test/cases.json#P6",
+      "output": "outputs/R19.json",
+      "checks": [
+        {
+          "check": 1,
+          "judgement": "Meets",
+          "reason": "Six entries, four customers and four events match P6."
+        },
+        {
+          "check": 2,
+          "judgement": "Meets",
+          "reason": "A/B are two customers, E1/E2 one event; unit separation is correct."
+        },
+        {
+          "check": 3,
+          "judgement": "Needs correction",
+          "reason": "'without converting ... to a percentage' refuses the requested valid 2/4 descriptive share solely because of the baseline rule."
+        },
+        {
+          "check": 4,
+          "judgement": "Meets",
+          "reason": "No diagnosis or common driver invented from failed wording."
+        },
+        {
+          "check": 5,
+          "judgement": "Needs correction",
+          "reason": "High confidence is assigned to descriptive counts, but individual pattern/isolated-signal findings lack their own explained low/medium/high confidence."
+        }
+      ],
+      "automatic_failures": []
+    },
+    {
+      "run": "R20",
+      "case": "T5",
+      "experiment": "template",
+      "variant": "baseline",
+      "source": "checks/pattern-test/cases.json#T5",
+      "output": "outputs/R20.json",
+      "checks": [
+        {
+          "check": 1,
+          "judgement": "Meets",
+          "reason": "One reproduced damaged-cable failure matches T5."
+        },
+        {
+          "check": 2,
+          "judgement": "Meets",
+          "reason": "'two occurrences, one distinct instance' preserves event A."
+        },
+        {
+          "check": 3,
+          "judgement": "Meets",
+          "reason": "No genuine recurring cause is claimed."
+        },
+        {
+          "check": 4,
+          "judgement": "Meets",
+          "reason": "Only one distinct instance is explicit evidence against recurrence."
+        },
+        {
+          "check": 5,
+          "judgement": "Meets",
+          "reason": "All sections, E1/E2, High diagnosis confidence and human review are present."
+        }
+      ],
+      "automatic_failures": []
+    },
+    {
+      "run": "R21",
+      "case": "P4",
+      "experiment": "percentage",
+      "variant": "baseline",
+      "source": "checks/pattern-test/cases.json#P4",
+      "output": "outputs/R21.json",
+      "checks": [
+        {
+          "check": 1,
+          "judgement": "Meets",
+          "reason": "Five rows/two incidents and no diagnosed causes match P4."
+        },
+        {
+          "check": 2,
+          "judgement": "Meets",
+          "reason": "R1-R3 are I1; R4-R5 are I2, not five incidents."
+        },
+        {
+          "check": 3,
+          "judgement": "Needs correction",
+          "reason": "'report that count rather than a percentage' refuses the requested valid 1/2 share solely due to sample size."
+        },
+        {
+          "check": 4,
+          "judgement": "Meets",
+          "reason": "'Awaiting part' does not establish diagnosis; repeated updates are not independent recurrence."
+        },
+        {
+          "check": 5,
+          "judgement": "Meets",
+          "reason": "High confidence explicitly applies to the isolated-signal conclusion for both issues; identifiers, contrary repeat-report evidence, missing period and human review are given."
+        }
+      ],
+      "automatic_failures": []
+    },
+    {
+      "run": "R22",
+      "case": "P4",
+      "experiment": "percentage",
+      "variant": "candidate",
+      "source": "checks/pattern-test/cases.json#P4",
+      "output": "outputs/R22.json",
+      "checks": [
+        {
+          "check": 1,
+          "judgement": "Meets",
+          "reason": "One cutter event and two total incidents match P4."
+        },
+        {
+          "check": 2,
+          "judgement": "Meets",
+          "reason": "Five exported rows are kept apart from two events."
+        },
+        {
+          "check": 3,
+          "judgement": "Meets",
+          "reason": "'50% ... supplied log, not a wider incident rate' meets P4."
+        },
+        {
+          "check": 4,
+          "judgement": "Meets",
+          "reason": "'Awaiting diagnosis' is a status, not a shared cause."
+        },
+        {
+          "check": 5,
+          "judgement": "Needs correction",
+          "reason": "'Confidence is high in the incident count and percentage' does not give an explained level for the two isolated-signal findings. This is a new check-5 omission compared with R21."
+        }
+      ],
+      "automatic_failures": []
+    },
+    {
+      "run": "R23",
+      "case": "P1",
+      "experiment": "percentage",
+      "variant": "baseline",
+      "source": "checks/pattern-test/cases.json#P1",
+      "output": "outputs/R23.json",
+      "checks": [
+        {
+          "check": 1,
+          "judgement": "Meets",
+          "reason": "Three export entries and one export event match P1."
+        },
+        {
+          "check": 2,
+          "judgement": "Meets",
+          "reason": "Entry composition is kept apart from customer prevalence and failures."
+        },
+        {
+          "check": 3,
+          "judgement": "Needs correction",
+          "reason": "'report the count, not a percentage' refuses the requested valid 3/5 share solely due to the baseline rule."
+        },
+        {
+          "check": 4,
+          "judgement": "Meets",
+          "reason": "No diagnosed cause invented from shared failed wording."
+        },
+        {
+          "check": 5,
+          "judgement": "Needs correction",
+          "reason": "High confidence in counts/instance grouping is not an explained level for each login/display isolated finding; the general causal statement remains 'unsupported' without a level."
+        }
+      ],
+      "automatic_failures": []
+    },
+    {
+      "run": "R24",
+      "case": "P3",
+      "experiment": "percentage",
+      "variant": "baseline",
+      "source": "checks/pattern-test/cases.json#P3",
+      "output": "outputs/R24.json",
+      "checks": [
+        {
+          "check": 1,
+          "judgement": "Meets",
+          "reason": "Filtered extract and missing total match P3; no missing entries invented."
+        },
+        {
+          "check": 2,
+          "judgement": "Meets",
+          "reason": "E1/A, E2/B and E3/C remain three entries and three events."
+        },
+        {
+          "check": 3,
+          "judgement": "Meets",
+          "reason": "'percentage cannot be calculated' correctly refuses all-feedback prevalence with absent denominator."
+        },
+        {
+          "check": 4,
+          "judgement": "Meets",
+          "reason": "Unknown causes support neither common nor different diagnosed drivers."
+        },
+        {
+          "check": 5,
+          "judgement": "Meets",
+          "reason": "High topic/Low any-shared-cause confidence is explained; no diagnostic evidence supports or distinguishes causes; human control is explicit."
+        }
+      ],
+      "automatic_failures": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+# Fernbank Runners: Membership Spreadsheet
+
+> This is an entirely fictional membership record, created to test a harder case of the do-these-actually-match method. Fernbank Runners and every name, address and figure here are invented.
+
+Kept by the club secretary, last updated three weeks ago.
+
+| Name | Email | Status |
+| --- | --- | --- |
+| Beatrix Winslow | beatrix.w@fernmail.example | Active |
+| J. Whitcombe | j.whitcombe@fernmail.example | Active |
+| Felix Oduya | felix.oduya@fernmail.example | Active |
+| Fergus Penrose | tomasz.k@fernmail.example | Lapsed |

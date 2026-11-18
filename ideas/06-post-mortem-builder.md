@@ -6,7 +6,7 @@ It takes the way [review-lost-opportunity](https://github.com/shaunmarsden/pract
 
 It's for anyone looking back on a failed pitch, a rejected job application, a cancelled project or a grant bid that didn't succeed. The question "why did this actually fail" tends to get an emotional answer, not one based on what people said.
 
-I built it on 2 August 2026. [The repo](https://github.com/shaunmarsden/post-mortem-builder) has four made-up cases: a rejected job application, a paused grant, a partnership pitch that went quiet, and a flat decline. They test whether it can tell a hard blocker, a timing problem, no decision and a case closed for good apart.
+I built it on 2 August 2026. [The tool's folder](../tools/post-mortem-builder/) has four made-up cases: a rejected job application, a paused grant, a partnership pitch that went quiet, and a flat decline. They test whether it can tell a hard blocker, a timing problem, no decision and a case closed for good apart.
 
 ## Rough Shape
 

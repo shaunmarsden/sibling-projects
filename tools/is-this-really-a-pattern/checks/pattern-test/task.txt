@@ -1,0 +1,1 @@
+Review the supplied fictional log using the supplied skill instructions. Where a template is supplied, use it for the review. Answer the case's request within that review. Return only the review; do not browse, open links, change records or infer events outside the supplied log.

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "P1",
+    "experiment": "percentage",
+    "text": "Fictional Larchmere Helpdesk, complete five-ticket log for one week. E1 customer A, event X: export failed. E2 customer A, same unresolved event X: export still failed. E3 customer A, same event X: export failed again. E4 customer B, event Y: login failed. E5 customer C, event Z: display failed. No diagnoses recorded. Request: What percentage of these five ticket entries concern export? State what the figure does and does not describe."
+  },
+  {
+    "id": "P2",
+    "experiment": "percentage",
+    "text": "Fictional Larchmere Helpdesk, complete five-ticket log for one week. E1 customer A, event X: export failed. E2 customer A, same unresolved event X: export still failed. E3 customer A, same event X: export failed again. E4 customer B, event Y: login failed. E5 customer C, event Z: display failed. No diagnoses recorded. The product has other customers not represented in this log. Request: What percentage of all product customers have an export problem?"
+  },
+  {
+    "id": "P3",
+    "experiment": "percentage",
+    "text": "Fictional Mallowbank Library. A filtered extract contains three booking-failure entries: E1 event A, E2 event B and E3 event C. The number of other feedback entries is not supplied. No causes are diagnosed. Request: What percentage of all feedback entries concern booking failure?"
+  },
+  {
+    "id": "P4",
+    "experiment": "percentage",
+    "text": "Fictional Alderwick Workshop, complete export: R1 incident I1, cutter stopped; R2 update to I1, awaiting diagnosis; R3 update to I1, awaiting part; R4 incident I2, light failed; R5 update to I2, awaiting diagnosis. There are no diagnosed causes. Request: What percentage of incidents concern the cutter? Keep incident events distinct from exported rows and do not claim a wider rate."
+  },
+  {
+    "id": "P5",
+    "experiment": "percentage",
+    "text": "Fictional Fenbridge Leisure Centre, complete four-entry feedback log for one day: E1 changing room cold, event A; E2 parking unclear, event B; E3 pool timetable unclear, event C; E4 changing room cold, event D. There are no diagnosed causes. Request: What percentage of these four feedback entries concern lockers? Do not infer feedback outside this log."
+  },
+  {
+    "id": "P6",
+    "experiment": "percentage",
+    "text": "Fictional Silvermere Archive, complete six-ticket log covering exactly four distinct customers for one week. E1 customer A, event X: export failed. E2 customer A, same event X: export failed again. E3 customer B, event Y: export failed. E4 customer C, event Z: login failed. E5 customer D, event Q: display failed. E6 customer D, same event Q: display failed again. No causes are diagnosed. Request: Among the four customers represented in this log, what percentage reported an export problem? Keep this apart from the ticket-entry share and all customers of the service."
+  },
+  {
+    "id": "T1",
+    "experiment": "template",
+    "text": "Fictional Brackenford Hall, complete two-event log for one month. E1 event A, room 1 on day 2: 'The projector cuts out.' Technician reproduced failure, measured a damaged cable, replaced it, and the fault stopped. E2 event B, room 2 on day 9: 'The projector cuts out.' Technician independently reproduced failure, measured a damaged cable, replaced it, and the fault stopped. Request: Review what recurs. Use the supplied template."
+  },
+  {
+    "id": "T2",
+    "experiment": "template",
+    "text": "Fictional Brackenford Hall, complete two-event log for one month. E1 event A, room 1 on day 2: 'The screen goes black.' Technician reproduced failure, measured a damaged cable, replaced it, and the fault stopped. E2 event B, room 2 on day 9: 'Slides keep vanishing.' Technician independently reproduced failure, measured a damaged cable, replaced it, and the fault stopped. Request: Review what recurs. Use the supplied template."
+  },
+  {
+    "id": "T3",
+    "experiment": "template",
+    "text": "Fictional Brackenford Hall, complete two-event log for one month. E1 event A, room 1: 'The projector cuts out.' Technician reproduced failure and confirmed damaged cable; replacement removed the fault. E2 event B, room 2: 'The projector cuts out.' Technician reproduced failure and confirmed a timer powering it off; disabling the timer removed the fault and the cable tested healthy. Request: Review what recurs. Use the supplied template."
+  },
+  {
+    "id": "T4",
+    "experiment": "template",
+    "text": "Fictional Brackenford Hall, complete two-event log for one month. E1 event A, room 1: 'The projector cuts out.' No diagnosis or investigation record supplied. E2 event B, room 2: 'The projector cuts out.' No diagnosis or investigation record supplied. Request: Review what recurs. Use the supplied template."
+  },
+  {
+    "id": "T5",
+    "experiment": "template",
+    "text": "Fictional Brackenford Hall, complete log of two reports about one event A in room 1 on day 2. E1 from attendee A: 'The projector cuts out.' E2 from attendee B about that same event A: 'The projector cuts out.' Technician reproduced this one failure and confirmed one damaged cable; replacing it removed the fault. Request: Review what recurs. Use the supplied template."
+  },
+  {
+    "id": "T6",
+    "experiment": "template",
+    "text": "Fictional Brackenford Hall, complete three-event log for one month. E1 event A, room 1: 'The projector cuts out.' Technician reproduced failure, confirmed a damaged cable and replacement removed the fault. E2 event B, room 2: 'The projector cuts out.' Technician independently reproduced failure, confirmed a damaged cable and replacement removed the fault. E3 event C, room 3: 'The screen goes black.' No diagnosis or investigation record supplied. Request: Review what recurs. Use the supplied template."
+  }
+]

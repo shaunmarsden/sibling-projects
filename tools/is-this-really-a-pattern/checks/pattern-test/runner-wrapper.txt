@@ -1,0 +1,1 @@
+Read only the supplied standalone packet at {path} with one read-only shell command. Carry out its task and return only the review. Do not inspect any other file, follow links, browse, use other tools, edit files, contact other agents or spawn agents. Do not discuss your setup.

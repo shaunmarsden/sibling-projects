@@ -1,0 +1,6 @@
+{
+  "run": "R24",
+  "status": "returned",
+  "agent": "/root/pattern_r24",
+  "text": "The percentage cannot be calculated: the extract contains three booking-failure entries, but the total number of feedback entries is not supplied. This small, filtered sample does not support a percentage or rate.\n\nWording/topic group: E1 (event A), E2 (event B) and E3 (event C) concern booking failure: three occurrences across three distinct instances. Exact wording and the period covered are missing. Confidence is high in this topic grouping as supplied, but it does not establish a shared cause.\n\nCause group: all three causes are unknown. There is no diagnostic evidence supporting a common driver, nor evidence establishing different causes. A causal pattern is therefore unproven; confidence in any shared-cause finding is low.\n\nA person should establish and check the diagnoses before deciding whether a repeated driver warrants a fix or process change. No change is justified as already decided by this extract."
+}

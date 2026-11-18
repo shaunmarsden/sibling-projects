@@ -1,0 +1,185 @@
+{
+  "date": "2026-11-17",
+  "status": "REGISTERED BEFORE RUNS",
+  "interface": "Codex isolated subagents, fork_turns=none",
+  "model_request": "Inherited parent model, no override",
+  "model_identity": "Not exposed by the subagent interface; do not infer a model name",
+  "reasoning_request": "Inherited parent effort, no override",
+  "sampling_and_token_usage": "Not exposed",
+  "approved_trials": 24,
+  "retries": 0,
+  "direct_api_calls": 0,
+  "grading": "Non-blind, non-independent review by the orchestrator",
+  "tool_restrictions": "Instruction-level only: one read of the standalone packet, then no tools; not independently audited",
+  "seed": 20261117,
+  "runs": [
+    {
+      "run": "R01",
+      "case": "P2",
+      "experiment": "percentage",
+      "variant": "baseline",
+      "input_sha256": "37adde8b1a3d2745a21ec92158dd127751d1526755aa39baa5d5aca78dcbbefe"
+    },
+    {
+      "run": "R02",
+      "case": "T3",
+      "experiment": "template",
+      "variant": "baseline",
+      "input_sha256": "6e4830904b66dc1295a24f8efc593d503af581e16da8c675ec75acfc68a2f36a"
+    },
+    {
+      "run": "R03",
+      "case": "P1",
+      "experiment": "percentage",
+      "variant": "candidate",
+      "input_sha256": "b1bdf8aff7654ffe4a68ea53977380a0cc9510f70363c5cea287e4268c027e75"
+    },
+    {
+      "run": "R04",
+      "case": "P2",
+      "experiment": "percentage",
+      "variant": "candidate",
+      "input_sha256": "86dc1fc36398b01981e64aab865457d2ba90379324648116cfe449c6b1f9634a"
+    },
+    {
+      "run": "R05",
+      "case": "P5",
+      "experiment": "percentage",
+      "variant": "baseline",
+      "input_sha256": "8a25807471a3ab50578411c9002cb5e22743c79f6bd883f7d9051dafa8940ddd"
+    },
+    {
+      "run": "R06",
+      "case": "T1",
+      "experiment": "template",
+      "variant": "baseline",
+      "input_sha256": "f839a6431ab27e668dbf84d54f0721d8942d0ee4704465d4d44ed25a96936fe9"
+    },
+    {
+      "run": "R07",
+      "case": "T4",
+      "experiment": "template",
+      "variant": "baseline",
+      "input_sha256": "3b65240a47c29917c5cf321eb0e0d298c2eafe802cb4e55c64238f96f1428489"
+    },
+    {
+      "run": "R08",
+      "case": "T2",
+      "experiment": "template",
+      "variant": "baseline",
+      "input_sha256": "cd79957a1c0846b72d5488a5abee5e7c62b6bac5875b398642f799eb3a70c4f1"
+    },
+    {
+      "run": "R09",
+      "case": "T3",
+      "experiment": "template",
+      "variant": "candidate",
+      "input_sha256": "0d4268e5140403a9510a3752ef7dcded04cbcd37b7904c2ba8557f3fda931f16"
+    },
+    {
+      "run": "R10",
+      "case": "T6",
+      "experiment": "template",
+      "variant": "candidate",
+      "input_sha256": "e2b3ab6809ecf312793b686abfa81590f543a766b73cd4b17843dfc076b53d5b"
+    },
+    {
+      "run": "R11",
+      "case": "P3",
+      "experiment": "percentage",
+      "variant": "candidate",
+      "input_sha256": "5a124e91ebbb2000697453b3283d80c0559b3ac2f50f55d4935e6d9fddbda601"
+    },
+    {
+      "run": "R12",
+      "case": "T2",
+      "experiment": "template",
+      "variant": "candidate",
+      "input_sha256": "4f9c3423fba71045f7cfa6c47d6b0f66b8e19f6a044257cafe8bde7b6a9f5615"
+    },
+    {
+      "run": "R13",
+      "case": "T1",
+      "experiment": "template",
+      "variant": "candidate",
+      "input_sha256": "9e4ff66efd98d86787f824701caf7c6692855561aef4b54af4ef67cf568d8c50"
+    },
+    {
+      "run": "R14",
+      "case": "T6",
+      "experiment": "template",
+      "variant": "baseline",
+      "input_sha256": "afa943e0fc2218e3caf0f2899b30866187912d4759c2be5ec96cc5e12d39e0e6"
+    },
+    {
+      "run": "R15",
+      "case": "T5",
+      "experiment": "template",
+      "variant": "candidate",
+      "input_sha256": "c659ca6d235643c178df34131f4e7e2733189b9b829701491d3cdd433cf98a32"
+    },
+    {
+      "run": "R16",
+      "case": "P6",
+      "experiment": "percentage",
+      "variant": "candidate",
+      "input_sha256": "b06ced06aa202076873643fd518e3edf1cafbab54b92f4841143d3e008260107"
+    },
+    {
+      "run": "R17",
+      "case": "T4",
+      "experiment": "template",
+      "variant": "candidate",
+      "input_sha256": "4623c1f761d3efff936a5607ad4394d45a4068b0abfad59c3b9a481988a08179"
+    },
+    {
+      "run": "R18",
+      "case": "P5",
+      "experiment": "percentage",
+      "variant": "candidate",
+      "input_sha256": "e4213d04bdaca8d16a9123aa39d683c3e7a79e13fea3e7d4ca0e1dfe77cfd8a3"
+    },
+    {
+      "run": "R19",
+      "case": "P6",
+      "experiment": "percentage",
+      "variant": "baseline",
+      "input_sha256": "e6a1f61ae04debdd7468a189361f17e103ea25d6c4541b59081e4226c54c99b1"
+    },
+    {
+      "run": "R20",
+      "case": "T5",
+      "experiment": "template",
+      "variant": "baseline",
+      "input_sha256": "7eda7b68134fe743ce4d3eca9c43add80f14bee5f41ce3cac77c22923d6e64a2"
+    },
+    {
+      "run": "R21",
+      "case": "P4",
+      "experiment": "percentage",
+      "variant": "baseline",
+      "input_sha256": "ec354b0798ffec3af9bac9d7c029abebff8371bf7ae04018053c16de478d91c4"
+    },
+    {
+      "run": "R22",
+      "case": "P4",
+      "experiment": "percentage",
+      "variant": "candidate",
+      "input_sha256": "674c5c771478d7ab76e6458f378560b408ff75726fb9f09e2ccdc2da3767e53a"
+    },
+    {
+      "run": "R23",
+      "case": "P1",
+      "experiment": "percentage",
+      "variant": "baseline",
+      "input_sha256": "70d519c07be56451ab35ebad8313ced3cd6883741950bb89c983b39f2adeb273"
+    },
+    {
+      "run": "R24",
+      "case": "P3",
+      "experiment": "percentage",
+      "variant": "baseline",
+      "input_sha256": "b17a06e2a0a3b8276c0b83cf8740fd836945ca9e2cd7737d87134926358e096e"
+    }
+  ]
+}

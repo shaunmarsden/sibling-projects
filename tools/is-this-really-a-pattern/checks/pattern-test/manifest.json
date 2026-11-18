@@ -1,0 +1,43 @@
+{
+  "status": "NOT RUN - PREPARED PACKET",
+  "source_commit": "8063d07851ca84cdad5cfeaa448e3bbc55c24ed1",
+  "source_files": {
+    "checks/pattern-test/baseline-skill.txt": "SKILL.md",
+    "checks/pattern-test/baseline-template.txt": "templates/pattern-review-template.md"
+  },
+  "files": {
+    "checks/pattern-test/baseline-skill.txt": "3e1539653ab8d0f53824914b5f1bae4100fba563deb8caddec0120ee93389c4e",
+    "checks/pattern-test/candidate-skill.txt": "a7c1be9428fd082811904f9c4999a293bc9f7a12094242055b96ffe9e28e7ab9",
+    "checks/pattern-test/baseline-template.txt": "d16b69886e5e1efbf127b7f1d6f3d1438633ddef3d233a10a943e18e405ea10a",
+    "checks/pattern-test/candidate-template.txt": "ae513211b3ffb3d746501169b2a39971d95978d97bdf83c1081c8f1062182589",
+    "checks/pattern-test/cases.json": "7ee9a07f3f7ccac1feb0e467be33f401b36bfd341cd8bd428e27643498abae1f",
+    "checks/pattern-test/answer-key.json": "2377e9e274b87f0e2733581bd2cd9665c57aebe0b1a1618bf7c5e933836d2562",
+    "checks/pattern-test/task.txt": "bbf92f30da3282d0a940b26613334162ae12de84d6302cc6314ea6b91998e91d",
+    "checks/pattern-test/plan.md": "bf4d58e965aa06a13d05fcf11f38eb726d8f3da336c65324af5156196c124fa8",
+    "checks/pattern-test/runner-wrapper.txt": "c7966461b9a66633c3edfe8474ba6aa8be447d5b372c6375083b6d0f4c9b894f",
+    "checks/pattern-test/inputs/R01.txt": "37adde8b1a3d2745a21ec92158dd127751d1526755aa39baa5d5aca78dcbbefe",
+    "checks/pattern-test/inputs/R02.txt": "6e4830904b66dc1295a24f8efc593d503af581e16da8c675ec75acfc68a2f36a",
+    "checks/pattern-test/inputs/R03.txt": "b1bdf8aff7654ffe4a68ea53977380a0cc9510f70363c5cea287e4268c027e75",
+    "checks/pattern-test/inputs/R04.txt": "86dc1fc36398b01981e64aab865457d2ba90379324648116cfe449c6b1f9634a",
+    "checks/pattern-test/inputs/R05.txt": "8a25807471a3ab50578411c9002cb5e22743c79f6bd883f7d9051dafa8940ddd",
+    "checks/pattern-test/inputs/R06.txt": "f839a6431ab27e668dbf84d54f0721d8942d0ee4704465d4d44ed25a96936fe9",
+    "checks/pattern-test/inputs/R07.txt": "3b65240a47c29917c5cf321eb0e0d298c2eafe802cb4e55c64238f96f1428489",
+    "checks/pattern-test/inputs/R08.txt": "cd79957a1c0846b72d5488a5abee5e7c62b6bac5875b398642f799eb3a70c4f1",
+    "checks/pattern-test/inputs/R09.txt": "0d4268e5140403a9510a3752ef7dcded04cbcd37b7904c2ba8557f3fda931f16",
+    "checks/pattern-test/inputs/R10.txt": "e2b3ab6809ecf312793b686abfa81590f543a766b73cd4b17843dfc076b53d5b",
+    "checks/pattern-test/inputs/R11.txt": "5a124e91ebbb2000697453b3283d80c0559b3ac2f50f55d4935e6d9fddbda601",
+    "checks/pattern-test/inputs/R12.txt": "4f9c3423fba71045f7cfa6c47d6b0f66b8e19f6a044257cafe8bde7b6a9f5615",
+    "checks/pattern-test/inputs/R13.txt": "9e4ff66efd98d86787f824701caf7c6692855561aef4b54af4ef67cf568d8c50",
+    "checks/pattern-test/inputs/R14.txt": "afa943e0fc2218e3caf0f2899b30866187912d4759c2be5ec96cc5e12d39e0e6",
+    "checks/pattern-test/inputs/R15.txt": "c659ca6d235643c178df34131f4e7e2733189b9b829701491d3cdd433cf98a32",
+    "checks/pattern-test/inputs/R16.txt": "b06ced06aa202076873643fd518e3edf1cafbab54b92f4841143d3e008260107",
+    "checks/pattern-test/inputs/R17.txt": "4623c1f761d3efff936a5607ad4394d45a4068b0abfad59c3b9a481988a08179",
+    "checks/pattern-test/inputs/R18.txt": "e4213d04bdaca8d16a9123aa39d683c3e7a79e13fea3e7d4ca0e1dfe77cfd8a3",
+    "checks/pattern-test/inputs/R19.txt": "e6a1f61ae04debdd7468a189361f17e103ea25d6c4541b59081e4226c54c99b1",
+    "checks/pattern-test/inputs/R20.txt": "7eda7b68134fe743ce4d3eca9c43add80f14bee5f41ce3cac77c22923d6e64a2",
+    "checks/pattern-test/inputs/R21.txt": "ec354b0798ffec3af9bac9d7c029abebff8371bf7ae04018053c16de478d91c4",
+    "checks/pattern-test/inputs/R22.txt": "674c5c771478d7ab76e6458f378560b408ff75726fb9f09e2ccdc2da3767e53a",
+    "checks/pattern-test/inputs/R23.txt": "70d519c07be56451ab35ebad8313ced3cd6883741950bb89c983b39f2adeb273",
+    "checks/pattern-test/inputs/R24.txt": "b17a06e2a0a3b8276c0b83cf8740fd836945ca9e2cd7737d87134926358e096e"
+  }
+}
