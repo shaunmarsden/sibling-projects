@@ -1,0 +1,6 @@
+{
+  "run": "R22",
+  "status": "returned",
+  "agent": "/root/pattern_r22",
+  "text": "50% of incidents in this log concern the cutter: 1 cutter incident (I1) out of 2 distinct incidents (I1 and I2). This is a share of the supplied log, not a wider incident rate.\n\nThe export contains 5 rows: R1–R3 concern I1; R4–R5 concern I2. Updates are not additional incident events.\n\nNo causal pattern can be established: neither incident has a diagnosed cause. The cutter stoppage and light failure are each isolated signals, not repeated patterns. “Awaiting diagnosis” recurs in R2 and R5, but describes a status, not a shared cause. The reporting period is unspecified.\n\nConfidence is high in the incident count and percentage; causal findings remain unsupported. A person should review the diagnoses before deciding whether any fix or process change is warranted."
+}

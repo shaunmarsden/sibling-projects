@@ -1,0 +1,6 @@
+{
+  "run": "R21",
+  "status": "returned",
+  "agent": "/root/pattern_r21",
+  "text": "The export contains five rows but only two distinct incidents:\n\n- I1, cutter stopped: R1–R3, comprising one incident event and two updates.\n- I2, light failed: R4–R5, comprising one incident event and one update.\n\nOne of the two incidents concerns the cutter. Under the supplied skill’s guardrail against percentages from small samples, I would report that count rather than a percentage. It describes only this complete export, not a wider incident rate.\n\nBoth causes are unknown. “Awaiting part” does not establish a diagnosis. The cutter-related rows repeat the same incident, so they are not independent evidence of recurrence. Each equipment issue is an isolated signal, not a supported causal pattern. Confidence in that conclusion is high given the explicit incident identifiers.\n\nThe reporting period and diagnosis evidence are missing. Human review should establish the causes before considering any fix or process change."
+}

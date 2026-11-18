@@ -1,0 +1,6 @@
+{
+  "run": "R23",
+  "status": "returned",
+  "agent": "/root/pattern_r23",
+  "text": "Three of the five ticket entries concern export: E1, E2 and E3. The supplied skill prohibits percentages from small or mixed samples, so I would report the count, not a percentage.\n\nThis describes ticket-entry composition only. All three export entries concern one customer’s same unresolved event X, so they represent three occurrences but only one distinct instance. They do not establish three independent export failures, customer prevalence, an export failure rate or a recurring cause.\n\nThe wording groups are export (E1–E3), login (E4) and display (E5). There are five occurrences across three distinct instances. No diagnoses or supporting diagnostic evidence are recorded, so causes remain unknown; shared “failed” wording does not establish a shared cause.\n\nThe export cluster is an isolated signal, not a demonstrated pattern. Confidence is high in the counts and instance grouping, but causal findings are unsupported. A person should review and establish diagnoses before deciding whether any fix or process change is warranted."
+}

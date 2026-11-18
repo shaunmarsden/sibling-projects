@@ -30,25 +30,25 @@ flowchart TB
 
 | Situation described | Route to |
 | --- | --- |
-| Writing up a meeting and want confirmed facts kept separate from estimates and assumptions | [Evidence-Labelled Meeting Notes](https://github.com/shaunmarsden/evidence-labelled-meeting-notes) |
-| Want a scoring rubric for judging AI output in a specific domain, not a fixed one that does not fit | [Build Your Own AI Output Rubric](https://github.com/shaunmarsden/build-your-own-rubric) |
+| Writing up a meeting and want confirmed facts kept separate from estimates and assumptions | [Evidence-Labelled Meeting Notes](https://github.com/shaunmarsden/sibling-projects/tree/main/tools/evidence-labelled-meeting-notes/) |
+| Want a scoring rubric for judging AI output in a specific domain, not a fixed one that does not fit | [Build Your Own AI Output Rubric](https://github.com/shaunmarsden/sibling-projects/tree/main/tools/build-your-own-rubric/) |
 | Have a repeated task and want a proper, bounded skill file instead of a one-off prompt | [Skill Author](https://github.com/shaunmarsden/skill-author) |
 | Have a book, course, or policy document and want it structured as a skill instead of loaded whole | [Book to Skill](https://github.com/shaunmarsden/book-to-skill) |
-| A tracked status, on track, done, in progress, might not actually match the evidence behind it | [Claims vs. Evidence Checker](https://github.com/shaunmarsden/claims-vs-evidence-checker) |
-| A list or spreadsheet might have duplicates, missing fields, or stale rows | [List Hygiene Checker](https://github.com/shaunmarsden/list-hygiene-checker) |
-| Something has already failed or closed, and you want to know if it is genuinely over | [Post-Mortem Builder](https://github.com/shaunmarsden/post-mortem-builder) |
-| Someone has gone quiet and you are deciding whether, and what, to send next | [The Quiet Follow-Up](https://github.com/shaunmarsden/the-quiet-follow-up) |
-| A customer complaint has come in and you want to diagnose the real driver before replying | [Diagnose Before You Respond](https://github.com/shaunmarsden/diagnose-before-you-respond) |
-| Weighing a decision (a job offer, a vendor, a project idea) with more than one aspect to judge | [Is This Actually a Good Fit?](https://github.com/shaunmarsden/is-this-a-good-fit) |
-| Someone else has agreed to present your case to a third party you cannot be in the room for | [Brief Your Advocate](https://github.com/shaunmarsden/brief-your-advocate) |
-| Need a written case for a decision-maker who was not part of the original conversations | [Make the Case](https://github.com/shaunmarsden/make-the-case) |
-| Want a weekly view of your own work composed from what you already have, no dashboard | [Weekly Roundup Builder](https://github.com/shaunmarsden/weekly-roundup-builder) |
-| A decision is still open and stalled, "let me think about it" has gone on longer than it should | [What's Actually Causing This Delay?](https://github.com/shaunmarsden/whats-causing-this-delay) |
-| You keep seeing what sounds like the same complaint or issue across several instances and want to know if it is one real pattern | [Is This Really a Pattern?](https://github.com/shaunmarsden/is-this-really-a-pattern) |
-| Sending the same template message to more than one recipient, or one recipient who needs to forward part of it | [Personalise, Don't Templatise](https://github.com/shaunmarsden/personalise-dont-templatise) |
-| Have an important conversation coming up and the useful information is scattered | [Prep Card Builder](https://github.com/shaunmarsden/prep-card-builder) |
-| Reaching out cold to someone you do not know, and want an opener anchored to something real rather than a generic observation | [First Contact That Isn't Generic](https://github.com/shaunmarsden/first-contact-that-isnt-generic) |
-| Two records that are each supposed to reflect the same thing, a count, a status, a set of dates, and you need to know where they actually disagree | [Do These Actually Match?](https://github.com/shaunmarsden/do-these-actually-match) |
+| A tracked status, on track, done, in progress, might not actually match the evidence behind it | [Claims vs. Evidence Checker](https://github.com/shaunmarsden/sibling-projects/tree/main/tools/claims-vs-evidence-checker/) |
+| A list or spreadsheet might have duplicates, missing fields, or stale rows | [List Hygiene Checker](https://github.com/shaunmarsden/sibling-projects/tree/main/tools/list-hygiene-checker/) |
+| Something has already failed or closed, and you want to know if it is genuinely over | [Post-Mortem Builder](https://github.com/shaunmarsden/sibling-projects/tree/main/tools/post-mortem-builder/) |
+| Someone has gone quiet and you are deciding whether, and what, to send next | [The Quiet Follow-Up](https://github.com/shaunmarsden/sibling-projects/tree/main/tools/the-quiet-follow-up/) |
+| A customer complaint has come in and you want to diagnose the real driver before replying | [Diagnose Before You Respond](https://github.com/shaunmarsden/sibling-projects/tree/main/tools/diagnose-before-you-respond/) |
+| Weighing a decision (a job offer, a vendor, a project idea) with more than one aspect to judge | [Is This Actually a Good Fit?](https://github.com/shaunmarsden/sibling-projects/tree/main/tools/is-this-a-good-fit/) |
+| Someone else has agreed to present your case to a third party you cannot be in the room for | [Brief Your Advocate](https://github.com/shaunmarsden/sibling-projects/tree/main/tools/brief-your-advocate/) |
+| Need a written case for a decision-maker who was not part of the original conversations | [Make the Case](https://github.com/shaunmarsden/sibling-projects/tree/main/tools/make-the-case/) |
+| Want a weekly view of your own work composed from what you already have, no dashboard | [Weekly Roundup Builder](https://github.com/shaunmarsden/sibling-projects/tree/main/tools/weekly-roundup-builder/) |
+| A decision is still open and stalled, "let me think about it" has gone on longer than it should | [What's Actually Causing This Delay?](https://github.com/shaunmarsden/sibling-projects/tree/main/tools/whats-causing-this-delay/) |
+| You keep seeing what sounds like the same complaint or issue across several instances and want to know if it is one real pattern | [Is This Really a Pattern?](https://github.com/shaunmarsden/sibling-projects/tree/main/tools/is-this-really-a-pattern/) |
+| Sending the same template message to more than one recipient, or one recipient who needs to forward part of it | [Personalise, Don't Templatise](https://github.com/shaunmarsden/sibling-projects/tree/main/tools/personalise-dont-templatise/) |
+| Have an important conversation coming up and the useful information is scattered | [Prep Card Builder](https://github.com/shaunmarsden/sibling-projects/tree/main/tools/prep-card-builder/) |
+| Reaching out cold to someone you do not know, and want an opener anchored to something real rather than a generic observation | [First Contact That Isn't Generic](https://github.com/shaunmarsden/sibling-projects/tree/main/tools/first-contact-that-isnt-generic/) |
+| Two records that are each supposed to reflect the same thing, a count, a status, a set of dates, and you need to know where they actually disagree | [Do These Actually Match?](https://github.com/shaunmarsden/sibling-projects/tree/main/tools/do-these-actually-match/) |
 
 ### Common Confusions Worth Checking Explicitly
 
@@ -58,37 +58,37 @@ Reading this pasted into an AI chat, use the question under each pair below. Bro
 
 ![Choose between Post-Mortem Builder and What's Actually Causing This Delay.](assets/diagrams/20-router-post-mortem-vs-delay.svg)
 
-[Open Post-Mortem Builder skill](https://github.com/shaunmarsden/post-mortem-builder/blob/main/SKILL.md) · [Open What's Actually Causing This Delay skill](https://github.com/shaunmarsden/whats-causing-this-delay/blob/main/SKILL.md)
+[Open Post-Mortem Builder skill](https://github.com/shaunmarsden/sibling-projects/blob/main/tools/post-mortem-builder/SKILL.md) · [Open What's Actually Causing This Delay skill](https://github.com/shaunmarsden/sibling-projects/blob/main/tools/whats-causing-this-delay/SKILL.md)
 
 #### Stated complaint or vague delay?
 
 ![Choose between Diagnose Before You Respond and What's Actually Causing This Delay.](assets/diagrams/21-router-complaint-vs-delay.svg)
 
-[Open Diagnose Before You Respond skill](https://github.com/shaunmarsden/diagnose-before-you-respond/blob/main/SKILL.md) · [Open What's Actually Causing This Delay skill](https://github.com/shaunmarsden/whats-causing-this-delay/blob/main/SKILL.md)
+[Open Diagnose Before You Respond skill](https://github.com/shaunmarsden/sibling-projects/blob/main/tools/diagnose-before-you-respond/SKILL.md) · [Open What's Actually Causing This Delay skill](https://github.com/shaunmarsden/sibling-projects/blob/main/tools/whats-causing-this-delay/SKILL.md)
 
 #### One record or a whole list?
 
 ![Choose between Claims vs. Evidence Checker and List Hygiene Checker.](assets/diagrams/22-router-claims-vs-list.svg)
 
-[Open Claims vs. Evidence Checker skill](https://github.com/shaunmarsden/claims-vs-evidence-checker/blob/main/SKILL.md) · [Open List Hygiene Checker skill](https://github.com/shaunmarsden/list-hygiene-checker/blob/main/SKILL.md)
+[Open Claims vs. Evidence Checker skill](https://github.com/shaunmarsden/sibling-projects/blob/main/tools/claims-vs-evidence-checker/SKILL.md) · [Open List Hygiene Checker skill](https://github.com/shaunmarsden/sibling-projects/blob/main/tools/list-hygiene-checker/SKILL.md)
 
 #### Several instances or one decision?
 
 ![Choose between Is This Really a Pattern and Is This Actually a Good Fit.](assets/diagrams/23-router-pattern-vs-fit.svg)
 
-[Open Is This Really a Pattern skill](https://github.com/shaunmarsden/is-this-really-a-pattern/blob/main/SKILL.md) · [Open Is This Actually a Good Fit skill](https://github.com/shaunmarsden/is-this-a-good-fit/blob/main/SKILL.md)
+[Open Is This Really a Pattern skill](https://github.com/shaunmarsden/sibling-projects/blob/main/tools/is-this-really-a-pattern/SKILL.md) · [Open Is This Actually a Good Fit skill](https://github.com/shaunmarsden/sibling-projects/blob/main/tools/is-this-a-good-fit/SKILL.md)
 
 #### An advocate or a document?
 
 ![Choose between Brief Your Advocate and Make the Case.](assets/diagrams/24-router-advocate-vs-case.svg)
 
-[Open Brief Your Advocate skill](https://github.com/shaunmarsden/brief-your-advocate/blob/main/SKILL.md) · [Open Make the Case skill](https://github.com/shaunmarsden/make-the-case/blob/main/SKILL.md)
+[Open Brief Your Advocate skill](https://github.com/shaunmarsden/sibling-projects/blob/main/tools/brief-your-advocate/SKILL.md) · [Open Make the Case skill](https://github.com/shaunmarsden/sibling-projects/blob/main/tools/make-the-case/SKILL.md)
 
 #### First contact or an arranged conversation?
 
 ![Choose between First Contact That Isn't Generic and Prep Card Builder.](assets/diagrams/25-router-first-contact-vs-prep.svg)
 
-[Open First Contact That Isn't Generic skill](https://github.com/shaunmarsden/first-contact-that-isnt-generic/blob/main/SKILL.md) · [Open Prep Card Builder skill](https://github.com/shaunmarsden/prep-card-builder/blob/main/SKILL.md)
+[Open First Contact That Isn't Generic skill](https://github.com/shaunmarsden/sibling-projects/blob/main/tools/first-contact-that-isnt-generic/SKILL.md) · [Open Prep Card Builder skill](https://github.com/shaunmarsden/sibling-projects/blob/main/tools/prep-card-builder/SKILL.md)
 
 - **None of these fit:** say so plainly rather than forcing the closest match. Suggest raising it as a new idea in a [sibling-projects discussion](https://github.com/shaunmarsden/sibling-projects/discussions) instead of inventing a method on the spot.
 

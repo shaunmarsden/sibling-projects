@@ -6,4 +6,4 @@ It comes from [build-business-case](https://github.com/shaunmarsden/practical-ai
 
 It's for anyone writing a proper case for someone who wasn't in the room: a community group applying for a grant, an employee asking for something at work, anyone whose request has to stand on its own without them there to argue for it.
 
-I built it on 2 August 2026. [The repo](https://github.com/shaunmarsden/make-the-case) has a made-up community garden group asking for money for a greenhouse. The cost wasn't confirmed yet, so the tool rightly left it as an open placeholder rather than guessing a number.
+I built it on 2 August 2026. [The tool's folder](../tools/make-the-case/) has a made-up community garden group asking for money for a greenhouse. The cost wasn't confirmed yet, so the tool rightly left it as an open placeholder rather than guessing a number.

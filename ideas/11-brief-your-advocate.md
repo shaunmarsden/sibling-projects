@@ -6,4 +6,4 @@ It comes from [champion-enablement](https://github.com/shaunmarsden/practical-ai
 
 It's for anyone asking someone else to present or pass on their case: a colleague presenting a proposal, a friend vouching for you, a mentor raising something with a committee.
 
-I built it on 2 August 2026. [The repo](https://github.com/shaunmarsden/brief-your-advocate) has a made-up example of briefing a colleague to present a project proposal to two people. One has a known concern. For the other, nothing beyond their title is confirmed.
+I built it on 2 August 2026. [The tool's folder](../tools/brief-your-advocate/) has a made-up example of briefing a colleague to present a project proposal to two people. One has a known concern. For the other, nothing beyond their title is confirmed.

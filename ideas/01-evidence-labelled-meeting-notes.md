@@ -6,7 +6,7 @@ It comes from the fact, estimate and assumption rules in [extract-post-call-evid
 
 It's for anyone who has to write up a meeting: project managers, consultants, recruiters, anyone whose job turns on the gap between "what did we actually agree" and "what does everyone remember agreeing."
 
-I built it on 2 August 2026. [The repo](https://github.com/shaunmarsden/evidence-labelled-meeting-notes) has a made-up worked example (Fernbridge Digital) full of deliberate traps, the same pattern as [book-to-skill](https://github.com/shaunmarsden/book-to-skill)'s Art of War demo.
+I built it on 2 August 2026. [The tool's folder](../tools/evidence-labelled-meeting-notes/) has a made-up worked example (Fernbridge Digital) full of deliberate traps, the same pattern as [book-to-skill](https://github.com/shaunmarsden/book-to-skill)'s Art of War demo.
 
 ## Rough Shape
 

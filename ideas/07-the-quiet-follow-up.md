@@ -6,7 +6,7 @@ It comes from [plan-chase-sequence](https://github.com/shaunmarsden/practical-ai
 
 It's for recruiters chasing candidates who have gone silent, event organisers chasing no-shows or unconfirmed RSVPs, and anyone waiting on an unanswered support ticket or a stalled internal request.
 
-I built it on 2 August 2026. [The repo](https://github.com/shaunmarsden/the-quiet-follow-up) has a made-up worked example about a food bank's volunteer coordinator. It tests three outcomes: follow up now, answer something first, and stop.
+I built it on 2 August 2026. [The tool's folder](../tools/the-quiet-follow-up/) has a made-up worked example about a food bank's volunteer coordinator. It tests three outcomes: follow up now, answer something first, and stop.
 
 ## Rough Shape
 
